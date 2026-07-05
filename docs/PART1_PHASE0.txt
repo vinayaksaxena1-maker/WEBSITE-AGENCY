@@ -1,0 +1,469 @@
+
+--- Page 18 ---
+​MASTER SYSTEM PROMPT – PART 2B​
+​Isme hoga:​
+​●​ ​Phase 0–11 complete implementation roadmap​
+​●​ ​Folder structure​
+​●​ ​Files to create​
+​●​ ​Database schema overview​
+​●​ ​PASS / FAIL criteria​
+​●​ ​Audit checklist​
+​●​ ​LOCK conditions​
+​●​ ​Development order​
+​●​ ​MVP milestone​
+​●​ ​Production milestone​
+​# AI WEBSITE UPGRADE AGENCY​
+​## ENTERPRISE DEVELOPMENT KIT (EDK)​
+​### MASTER SYSTEM PROMPT​
+​### PART 2B-1​
+​### DEVELOPMENT ROADMAP (PHASE 0 – PHASE 3)​
+​==================================================​
+​MISSION​
+​==================================================​
+​You are responsible for implementing the AI Website Upgrade Agency according to the​
+​approved architecture.​
+​The architecture defined in Part 1 and Part 2A is LOCKED.​
+​Implementation must follow the exact development sequence.​
+​Never skip phases.​
+​Never merge multiple phases.​
+​Never modify future phases while the current phase is incomplete.​
+​Every phase must end with:​
+​• Internal Testing​
+​• Audit Report​
+​• PASS / FAIL Decision​
+​• Phase Lock​
+
+--- Page 19 ---
+​Only after PASS may the next phase begin.​
+​==================================================​
+​DEVELOPMENT ORDER​
+​==================================================​
+​Phase 0​
+​Foundation Framework​
+​↓​
+​Phase 1​
+​Search Engine​
+​↓​
+​Phase 2​
+​Website Audit Engine​
+​↓​
+​Phase 3​
+​Niche Detection Engine​
+​Future phases are prohibited until these phases pass.​
+​==================================================​
+​PHASE 0​
+​FOUNDATION FRAMEWORK​
+​==================================================​
+​OBJECTIVE​
+​Create the core infrastructure required by every future module.​
+​No business logic.​
+​No AI.​
+​No website processing.​
+​Only project infrastructure.​
+
+--- Page 20 ---
+​--------------------------------------------------​
+​CREATE​
+​Configuration Manager​
+​Settings Manager​
+​Environment Loader​
+​Logger​
+​Database Manager​
+​Redis Manager​
+​Workflow Manager​
+​Queue Manager​
+​Master Agent​
+​Agent Registry​
+​Event Manager​
+​Scheduler​
+​Health Monitor​
+​Dashboard Framework​
+​Backup Manager​
+​--------------------------------------------------​
+​FOLDER STRUCTURE​
+​/config​
+​/core​
+​/database​
+
+--- Page 21 ---
+​/events​
+​/workflows​
+​/dashboard​
+​/logs​
+​/backups​
+​/tests​
+​--------------------------------------------------​
+​FILES​
+​config.py​
+​settings.py​
+​logger.py​
+​database.py​
+​redis_manager.py​
+​workflow_manager.py​
+​master_agent.py​
+​agent_registry.py​
+​scheduler.py​
+​event_bus.py​
+​health_monitor.py​
+​dashboard.py​
+​--------------------------------------------------​
+​REQUIREMENTS​
+
+--- Page 22 ---
+​Every component must be independent.​
+​No hardcoded configuration.​
+​All environment variables loaded from .env​
+​Every module must support logging.​
+​Every module must support exception handling.​
+​Every module must support configuration injection.​
+​--------------------------------------------------​
+​TESTS​
+​Configuration loads correctly​
+​Database connects​
+​Redis connects​
+​Logger writes logs​
+​Master Agent initializes​
+​Workflow Manager loads​
+​Queue Manager starts​
+​Health Monitor responds​
+​--------------------------------------------------​
+​PASS CONDITIONS​
+​All infrastructure modules initialize successfully.​
+​Zero startup exceptions.​
+​100% infrastructure tests pass.​
+​Audit Report generated.​
+
+--- Page 23 ---
+​--------------------------------------------------​
+​LOCK CONDITIONS​
+​Phase 0 becomes READ ONLY.​
+​No modifications unless architecture changes.​
+​==================================================​
+​PHASE 1​
+​SEARCH ENGINE​
+​==================================================​
+​OBJECTIVE​
+​Automatically discover business websites.​
+​No auditing.​
+​No AI analysis.​
+​No CRM.​
+​Only website discovery.​
+​--------------------------------------------------​
+​SUPPORTED NICHES​
+​Book Publishers​
+​Schools​
+​Hospitals​
+​Clinics​
+​Restaurants​
+​Hotels​
+​Law Firms​
+​Real Estate​
+
+--- Page 24 ---
+​Travel Agencies​
+​Gyms​
+​NGOs​
+​Coaching Institutes​
+​Local Businesses​
+​Portfolio Websites​
+​E-Commerce​
+​--------------------------------------------------​
+​CREATE​
+​Search Agent​
+​Search Queue​
+​Search Models​
+​Search Services​
+​Search Tests​
+​--------------------------------------------------​
+​DATABASE​
+​search_leads​
+​Fields​
+​id​
+​domain​
+​source​
+​niche​
+
+--- Page 25 ---
+​status​
+​created_at​
+​--------------------------------------------------​
+​RULES​
+​Remove duplicate domains.​
+​Ignore social media.​
+​Ignore directory pages.​
+​Ignore invalid domains.​
+​Only root domains allowed.​
+​--------------------------------------------------​
+​OUTPUT​
+​Validated website list.​
+​--------------------------------------------------​
+​TESTS​
+​Domain discovery​
+​Duplicate detection​
+​Filtering​
+​Storage​
+​--------------------------------------------------​
+​PASS CONDITIONS​
+​Minimum 50 valid domains.​
+​No duplicates.​
+
+--- Page 26 ---
+​Database updated.​
+​Audit Report generated.​
+​--------------------------------------------------​
+​LOCK CONDITIONS​
+​Search Engine frozen.​
+​==================================================​
+​PHASE 2​
+​WEBSITE AUDIT ENGINE​
+​==================================================​
+​OBJECTIVE​
+​Analyze website quality.​
+​No email generation.​
+​No redesign.​
+​No AI prototype.​
+​--------------------------------------------------​
+​CHECKS​
+​SSL​
+​Performance​
+​Page Speed​
+​Mobile Responsiveness​
+​Accessibility​
+​SEO​
+​Trust Signals​
+
+--- Page 27 ---
+​Navigation​
+​CTA Quality​
+​Visual Quality​
+​Technology Stack​
+​--------------------------------------------------​
+​OUTPUT​
+​Audit JSON​
+​Audit Score​
+​Improvement Report​
+​--------------------------------------------------​
+​CREATE​
+​Audit Agent​
+​Audit Models​
+​Audit Services​
+​Audit Rules​
+​Audit Tests​
+​--------------------------------------------------​
+​DATABASE​
+​audits​
+​--------------------------------------------------​
+​FIELDS​
+​lead_id​
+
+--- Page 28 ---
+​audit_score​
+​seo_score​
+​mobile_score​
+​speed_score​
+​trust_score​
+​design_score​
+​summary​
+​--------------------------------------------------​
+​PASS CONDITIONS​
+​Website audited successfully.​
+​Audit report generated.​
+​Database updated.​
+​All tests pass.​
+​==================================================​
+​PHASE 3​
+​NICHE DETECTION ENGINE​
+​==================================================​
+​OBJECTIVE​
+​Automatically classify businesses.​
+​--------------------------------------------------​
+​SUPPORTED CATEGORIES​
+​Publisher​
+​School​
+​Hospital​
+
+--- Page 29 ---
+​Clinic​
+​Restaurant​
+​Hotel​
+​Travel​
+​Law Firm​
+​Real Estate​
+​NGO​
+​Gym​
+​Education​
+​Portfolio​
+​Business​
+​Corporate​
+​--------------------------------------------------​
+​INPUT​
+​Website​
+​Screenshot​
+​Audit Report​
+​--------------------------------------------------​
+​OUTPUT​
+​Business Category​
+​Confidence Score​
+​Theme Recommendation​
+
+--- Page 30 ---
+​--------------------------------------------------​
+​CREATE​
+​Niche Agent​
+​Niche Models​
+​Classifier​
+​Theme Mapper​
+​Tests​
+​--------------------------------------------------​
+​DATABASE​
+​business_profiles​
+​--------------------------------------------------​
+​FIELDS​
+​lead_id​
+​industry​
+​confidence​
+​recommended_theme​
+​--------------------------------------------------​
+​REQUIREMENTS​
+​Hybrid classification.​
+​Rule Engine first.​
+​AI only when required.​
+​--------------------------------------------------​
+
+--- Page 31 ---
+​PASS CONDITIONS​
+​Classification Accuracy > 90%​
+​Theme Recommendation generated.​
+​Database updated.​
+​Tests pass.​
+​==================================================​
+​GLOBAL RULES​
+​==================================================​
+​Never continue to Phase 4.​
+​Never implement Contact Extraction.​
+​Never implement CRM.​
+​Never implement Prototype Generation.​
+​Never generate Emails.​
+​Only implement Phases 0–3.​
+​==================================================​
+​AUDIT REPORT FORMAT​
+​==================================================​
+​Every phase must finish with:​
+​Files Created​
+​Files Modified​
+​Database Changes​
+​Tests Executed​
+​Errors​
+​Warnings​
+
+--- Page 32 ---
+​PASS / FAIL​
+​Performance Notes​
+​Future Recommendations​
+​==================================================​
+​# AI WEBSITE UPGRADE AGENCY​
+​## ENTERPRISE DEVELOPMENT KIT (EDK)​
+​### MASTER SYSTEM PROMPT​
+​### PART 2B-2A​
+​### DEVELOPMENT ROADMAP​
+​### PHASE 4 & PHASE 5​
+​=================================================================​
+​MISSION​
+​=================================================================​
+​Implement only:​
+​Phase 4​
+​Lead Scoring Engine​
+​Phase 5​
+​Contact Extraction Engine​
+​Do NOT implement any other phase.​
+​Do NOT create prototype generation.​
+​Do NOT create email automation.​
+​Do NOT create CRM.​
+​Complete only these two phases.​
+​=================================================================​
+​PHASE 4​
+​LEAD SCORING ENGINE​
+​=================================================================​
+​PURPOSE​
+
+--- Page 33 ---
+​Evaluate business opportunity based on website quality and assign a business priority score.​
+​This engine decides whether a lead is worth spending AI resources on.​
+​AI calls must never happen before Lead Scoring.​
+​Lead Scoring is the cost optimization layer.​
+​=================================================================​
+​INPUT​
+​=================================================================​
+​Audit Report​
+​Website Metadata​
+​Business Category​
+​Technology Stack​
+​Website Age (if available)​
+​Domain Quality​
+​=================================================================​
+​OUTPUT​
+​=================================================================​
+​Lead Score​
+​Business Priority​
+​Improvement Opportunity​
+​AI Processing Decision​
+​=================================================================​
+​SCORING MODEL​
+​=================================================================​
+​Old Website Design​
+​+30​
+​Mobile Responsiveness Issues​
+
+--- Page 34 ---
+​+25​
+​Performance Problems​
+​+20​
+​SEO Problems​
+​+15​
+​Trust Issues​
+​+10​
+​Broken Navigation​
+​+10​
+​Poor CTA Placement​
+​+10​
+​Outdated Branding​
+​+15​
+​No SSL​
+​+10​
+​Accessibility Problems​
+​+10​
+​=================================================================​
+​SCORE LEVELS​
+​=================================================================​
+​0–30​
+​Low Priority​
+​Ignore​
+​--------------------------------​
+​31–60​
+​Medium Priority​
+​Manual Review​
+
+--- Page 35 ---
+​--------------------------------​
+​61–80​
+​High Priority​
+​Proceed​
+​--------------------------------​
+​81–100​
+​Premium Lead​
+​Immediate Processing​
+​=================================================================​
+​BUSINESS VALUE SCORE​
+​=================================================================​
+​Calculate​
+​Website Quality​
+​×​
+​Business Potential​
+​×​
+​Industry Value​
+​×​
+​Contact Availability​
+​×​
+​Improvement Opportunity​
+​Generate​
+​Business Value Index​
