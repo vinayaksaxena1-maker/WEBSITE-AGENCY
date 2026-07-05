@@ -5,8 +5,8 @@ This document serves as the single source of truth for the entire multi-agent sy
 ---
 
 ## Project Status Overview
-* **Current Active Phase**: Phase 5 - Contact Extraction Engine
-* **Overall Progress**: 42%
+* **Current Active Phase**: Phase 6 - Email Validation Engine
+* **Overall Progress**: 46%
 * **Status**: IN_PROGRESS
 * **Last Updated**: 2026-07-05
 
@@ -79,8 +79,9 @@ Telegram Reporter
 * [x] Design SDD-005.
 * [x] Scoring formulas, priority weight systems.
 
-### [IN PROGRESS] Phase 5: Contact Extraction Engine
-* [/] Scrapers for social links, phone numbers, and emails.
+### [LOCKED] Phase 5: Contact Extraction Engine
+* [x] Design SDD-006 & PEC-006.
+* [x] Scrapers for social links, phone numbers, and emails.
 
 ### [PENDING] Phase 6: Email Validation Engine
 * [ ] Syntax validation, MX Lookup, and Deliverability scoring.
