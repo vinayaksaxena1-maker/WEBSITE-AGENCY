@@ -1,0 +1,476 @@
+
+--- Page 231 ---
+​=================================================================​
+​GLOBAL RESTRICTIONS​
+​=================================================================​
+​Do NOT implement Quality Intelligence.​
+​Do NOT implement Export Engine.​
+​Do NOT continue to Phase 7.11.​
+​Wait for:​
+​PART 2B-2C​
+​PHASE 7.11​
+​QUALITY INTELLIGENCE ENGINE​
+​=================================================================​
+​END OF PHASE 7.10​
+​# AI WEBSITE UPGRADE AGENCY​
+​## ENTERPRISE DEVELOPMENT KIT (EDK)​
+​### MASTER SYSTEM PROMPT​
+​### PART 2B-2C​
+​### PHASE 7.11​
+​### QUALITY INTELLIGENCE ENGINE​
+​=================================================================​
+​MISSION​
+​=================================================================​
+​Implement only the Quality Intelligence Engine.​
+​Do NOT implement Prototype Export Engine.​
+​Do NOT continue to Phase 7.12.​
+​The Quality Intelligence Engine is responsible for performing​
+​the final enterprise quality inspection of every generated​
+​prototype before it is approved for presentation.​
+​This engine is the final automated reviewer of the complete​
+​Prototype Intelligence Engine pipeline.​
+
+--- Page 232 ---
+​The engine never modifies the prototype.​
+​It only validates, measures, scores and certifies quality.​
+​=================================================================​
+​OBJECTIVE​
+​=================================================================​
+​Evaluate every generated prototype against enterprise​
+​quality standards.​
+​Generate measurable quality scores.​
+​Identify defects.​
+​Generate recommendations.​
+​Determine whether the prototype is ready for client presentation.​
+​=================================================================​
+​PRIMARY RESPONSIBILITIES​
+​=================================================================​
+​Validate HTML​
+​Validate Responsive Layout​
+​Validate Accessibility​
+​Validate Performance​
+​Validate SEO​
+​Validate Components​
+​Validate Theme​
+​Validate Typography​
+​Validate Images​
+​Validate UX​
+​Generate Quality Scores​
+
+--- Page 233 ---
+​Generate Certification Report​
+​=================================================================​
+​INPUT​
+​=================================================================​
+​Generated Prototype​
+​Responsive Blueprint​
+​Layout Blueprint​
+​Theme Profile​
+​Component Tree​
+​Visual Report​
+​DOM Report​
+​Preview Report​
+​Audit Report​
+​=================================================================​
+​OUTPUT​
+​=================================================================​
+​Quality Report​
+​Quality Scores​
+​Accessibility Report​
+​Performance Report​
+​SEO Report​
+​UX Report​
+​Issue List​
+​Recommendations​
+
+--- Page 234 ---
+​Certification Result​
+​=================================================================​
+​QUALITY PIPELINE​
+​=================================================================​
+​Prototype​
+​↓​
+​HTML Validation​
+​↓​
+​Accessibility Validation​
+​↓​
+​Responsive Validation​
+​↓​
+​Performance Validation​
+​↓​
+​SEO Validation​
+​↓​
+​Visual Validation​
+​↓​
+​UX Validation​
+​↓​
+​Component Validation​
+​↓​
+​Scoring Engine​
+
+--- Page 235 ---
+​↓​
+​Certification Report​
+​=================================================================​
+​QUALITY DIMENSIONS​
+​=================================================================​
+​HTML Quality​
+​CSS Quality​
+​JavaScript Quality​
+​Accessibility​
+​SEO​
+​Performance​
+​Responsive Design​
+​Visual Design​
+​Typography​
+​Color System​
+​Spacing​
+​Navigation​
+​Content Structure​
+​Brand Consistency​
+​Code Quality​
+​Maintainability​
+​=================================================================​
+​HTML VALIDATION​
+​=================================================================​
+
+--- Page 236 ---
+​Validate​
+​HTML5​
+​Semantic Structure​
+​Invalid Tags​
+​Broken Links​
+​Duplicate IDs​
+​Heading Hierarchy​
+​DOM Structure​
+​Code Organization​
+​=================================================================​
+​ACCESSIBILITY VALIDATION​
+​=================================================================​
+​Validate​
+​ARIA​
+​Alt Text​
+​Keyboard Navigation​
+​Color Contrast​
+​Heading Order​
+​Form Labels​
+​Focus Indicators​
+​Touch Targets​
+​Screen Reader Compatibility​
+​=================================================================​
+
+--- Page 237 ---
+​RESPONSIVE VALIDATION​
+​=================================================================​
+​Validate​
+​Desktop​
+​Laptop​
+​Tablet​
+​Tablet Portrait​
+​Large Mobile​
+​Mobile​
+​Small Mobile​
+​Check​
+​Overflow​
+​Broken Layout​
+​Hidden Elements​
+​Scaling​
+​Alignment​
+​=================================================================​
+​SEO VALIDATION​
+​=================================================================​
+​Validate​
+​Title​
+​Meta Description​
+​Canonical​
+​Open Graph​
+
+--- Page 238 ---
+​Twitter Metadata​
+​Structured Headings​
+​Schema Placeholder​
+​Image Alt Text​
+​=================================================================​
+​PERFORMANCE VALIDATION​
+​=================================================================​
+​Measure​
+​DOM Size​
+​Image Weight​
+​Unused Assets​
+​Render Complexity​
+​Layout Stability​
+​Animation Cost​
+​Asset Count​
+​Overall Build Size​
+​=================================================================​
+​VISUAL VALIDATION​
+​=================================================================​
+​Validate​
+​Typography​
+​Spacing​
+​Alignment​
+​Color Consistency​
+
+--- Page 239 ---
+​Grid Consistency​
+​Visual Hierarchy​
+​CTA Visibility​
+​Brand Consistency​
+​=================================================================​
+​UX VALIDATION​
+​=================================================================​
+​Measure​
+​Navigation Flow​
+​Content Readability​
+​Form Usability​
+​Button Visibility​
+​Conversion Flow​
+​Trust Indicators​
+​Contact Visibility​
+​User Journey​
+​=================================================================​
+​COMPONENT VALIDATION​
+​=================================================================​
+​Validate​
+​Component Integrity​
+​Variant Selection​
+​Dependencies​
+​Missing Components​
+
+--- Page 240 ---
+​Broken Components​
+​Theme Compatibility​
+​=================================================================​
+​QUALITY SCORING​
+​=================================================================​
+​Generate​
+​HTML Score​
+​Accessibility Score​
+​Performance Score​
+​Responsive Score​
+​SEO Score​
+​Visual Score​
+​UX Score​
+​Component Score​
+​Maintainability Score​
+​Overall Quality Score​
+​=================================================================​
+​CERTIFICATION LEVELS​
+​=================================================================​
+​95–100​
+​Enterprise Certified​
+​-----------------------------------------​
+​90–94​
+​Production Ready​
+
+--- Page 241 ---
+​-----------------------------------------​
+​80–89​
+​Client Presentation Ready​
+​-----------------------------------------​
+​70–79​
+​Requires Minor Improvements​
+​-----------------------------------------​
+​Below 70​
+​Rejected​
+​=================================================================​
+​ISSUE CLASSIFICATION​
+​=================================================================​
+​Critical​
+​High​
+​Medium​
+​Low​
+​Recommendation​
+​=================================================================​
+​RECOMMENDATION ENGINE​
+​=================================================================​
+​Generate​
+​Critical Fixes​
+​Performance Improvements​
+​Accessibility Improvements​
+
+--- Page 242 ---
+​SEO Improvements​
+​UX Improvements​
+​Visual Improvements​
+​Component Improvements​
+​=================================================================​
+​FILES TO CREATE​
+​=================================================================​
+​agents/prototype/​
+​quality_engine.py​
+​quality_validator.py​
+​quality_score.py​
+​accessibility_checker.py​
+​seo_checker.py​
+​performance_checker.py​
+​ux_checker.py​
+​component_checker.py​
+​certification_engine.py​
+​recommendation_engine.py​
+​quality_report.py​
+​quality_models.py​
+​tests/​
+​=================================================================​
+​DIRECTORY STRUCTURE​
+​=================================================================​
+
+--- Page 243 ---
+​prototype/​
+​quality/​
+​reports/​
+​certificates/​
+​recommendations/​
+​logs/​
+​=================================================================​
+​DATABASE​
+​=================================================================​
+​Table​
+​prototype_quality​
+​Fields​
+​id​
+​job_id​
+​html_score​
+​accessibility_score​
+​performance_score​
+​responsive_score​
+​seo_score​
+​ux_score​
+​visual_score​
+​component_score​
+​overall_score​
+
+--- Page 244 ---
+​certification_level​
+​status​
+​created_at​
+​=================================================================​
+​CONFIGURATION​
+​=================================================================​
+​Quality Threshold​
+​Certification Levels​
+​Accessibility Rules​
+​SEO Rules​
+​Performance Limits​
+​Responsive Matrix​
+​Validation Profile​
+​=================================================================​
+​LOGGING​
+​=================================================================​
+​Log​
+​Validation Started​
+​HTML Validation​
+​Accessibility Validation​
+​Responsive Validation​
+​SEO Validation​
+​Performance Validation​
+​UX Validation​
+
+--- Page 245 ---
+​Quality Score​
+​Certification​
+​Report Generated​
+​=================================================================​
+​ERROR HANDLING​
+​=================================================================​
+​Validation Failure​
+​Missing Assets​
+​Missing Reports​
+​Calculation Failure​
+​Database Failure​
+​Unhandled Exception​
+​Retry Logic​
+​Graceful Recovery​
+​=================================================================​
+​PERFORMANCE REQUIREMENTS​
+​=================================================================​
+​Fast Validation​
+​Parallel Quality Checks​
+​Reusable Validators​
+​Cached Results​
+​Low Memory Usage​
+​=================================================================​
+​SECURITY RULES​
+​=================================================================​
+
+--- Page 246 ---
+​Never modify prototype code.​
+​Never execute unknown scripts.​
+​Validate only trusted generated assets.​
+​Never expose internal validation logic.​
+​=================================================================​
+​UNIT TESTS​
+​=================================================================​
+​HTML Validator​
+​Accessibility Checker​
+​SEO Checker​
+​Performance Checker​
+​UX Checker​
+​Quality Scoring​
+​Certification Engine​
+​Recommendation Engine​
+​=================================================================​
+​INTEGRATION TESTS​
+​=================================================================​
+​Preview Engine​
+​HTML Engine​
+​Responsive Engine​
+​Database​
+​Filesystem​
+​Logging​
+
+--- Page 247 ---
+​Pipeline​
+​=================================================================​
+​PASS CONDITIONS​
+​=================================================================​
+​All validations completed.​
+​Overall Quality Score generated.​
+​Certification generated.​
+​Reports generated.​
+​Database updated.​
+​Logs written.​
+​All tests passed.​
+​=================================================================​
+​FAIL CONDITIONS​
+​=================================================================​
+​Validation Failure​
+​Certification Failure​
+​Missing Reports​
+​Database Failure​
+​Unhandled Exception​
+​=================================================================​
+​AUDIT REPORT​
+​=================================================================​
+​Validation Modules Executed​
+​Overall Quality Score​
+​Certification Level​
+
+--- Page 248 ---
+​Critical Issues​
+​Warnings​
+​Recommendations​
+​Execution Time​
+​PASS / FAIL​
+​=================================================================​
+​LOCK CONDITIONS​
+​=================================================================​
+​After PASS​
+​Quality Intelligence Engine becomes READ ONLY.​
+​No modifications allowed without architecture approval.​
+​=================================================================​
+​GLOBAL RESTRICTIONS​
+​=================================================================​
+​Do NOT implement Export Engine.​
+​Do NOT continue to Phase 7.12.​
+​Wait for:​
+​PART 2B-2C​
+​PHASE 7.12​
+​PROTOTYPE EXPORT ENGINE​
+​=================================================================​
+​END OF PHASE 7.11​
+​# AI WEBSITE UPGRADE AGENCY​
+​## ENTERPRISE DEVELOPMENT KIT (EDK)​
+​### MASTER SYSTEM PROMPT​
+​### PART 2B-2C​
+​### PHASE 7.12​

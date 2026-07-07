@@ -1,0 +1,463 @@
+
+--- Page 69 ---
+DOM Parsing Failed
+Theme Missing
+Generation Failed
+Unhandled Exception
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT implement Email Engine.
+Do NOT implement CRM.
+Do NOT implement Telegram.
+Do NOT continue to Phase 8.
+Wait for:
+Phase 7.2
+Screenshot Intelligence Engine
+=================================================================
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.2
+### SCREENSHOT INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Screenshot Intelligence Engine.
+Do NOT implement DOM Intelligence.
+Do NOT implement Theme Intelligence.
+
+
+--- Page 70 ---
+Do NOT implement HTML Generation.
+Do NOT implement Preview Generation.
+Do NOT continue to Phase 7.3.
+This module is responsible only for capturing high-quality website
+screenshots that will be used by every downstream Prototype
+Intelligence Engine module.
+This engine becomes the visual data provider for the entire Prototype
+Generation Pipeline.
+=================================================================
+OBJECTIVE
+=================================================================
+Capture a complete, accurate and production-quality visual
+representation of a business website.
+The Screenshot Engine must support websites of different sizes,
+technologies and layouts while producing consistent screenshots
+for AI analysis.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Open Website
+Wait for Stable Page
+Handle Dynamic Loading
+Scroll Complete Page
+Capture Full Page
+Capture Desktop View
+Capture Tablet View
+Capture Mobile View
+
+
+--- Page 71 ---
+Store Metadata
+Export Images
+Log Results
+=================================================================
+INPUT
+=================================================================
+Website URL
+Browser Configuration
+Viewport Configuration
+Timeout Configuration
+Output Directory
+=================================================================
+OUTPUT
+=================================================================
+Desktop Screenshot
+Tablet Screenshot
+Mobile Screenshot
+Full Page Screenshot
+Screenshot Metadata
+Execution Report
+=================================================================
+ENGINE PIPELINE
+=================================================================
+Website URL
+↓
+
+
+--- Page 72 ---
+Launch Browser
+↓
+Initialize Context
+↓
+Configure Viewport
+↓
+Navigate
+↓
+Wait Until Stable
+↓
+Scroll Page
+↓
+Lazy Load Detection
+↓
+Image Completion
+↓
+Animation Freeze
+↓
+Capture Desktop
+↓
+Capture Tablet
+↓
+
+
+--- Page 73 ---
+Capture Mobile
+↓
+Capture Full Page
+↓
+Compress Images
+↓
+Store Files
+↓
+Generate Metadata
+=================================================================
+SUPPORTED VIEWPORTS
+=================================================================
+Desktop
+1920 × 1080
+-------------------------------------
+Laptop
+1440 × 900
+-------------------------------------
+Tablet
+768 × 1024
+-------------------------------------
+Mobile
+390 × 844
+
+
+--- Page 74 ---
+-------------------------------------
+Additional viewport profiles must be configurable.
+=================================================================
+SUPPORTED BROWSERS
+=================================================================
+Chromium
+Preferred
+-------------------------------------
+Chrome
+Supported
+-------------------------------------
+Firefox
+Optional
+-------------------------------------
+WebKit
+Optional
+=================================================================
+BROWSER CONFIGURATION
+=================================================================
+Headless Mode
+Enabled
+Disable Notifications
+Enabled
+Disable Extensions
+
+
+--- Page 75 ---
+Enabled
+Disable Cache
+Configurable
+User Agent
+Configurable
+Language
+Configurable
+Timezone
+Configurable
+=================================================================
+WAIT STRATEGY
+=================================================================
+Wait for
+DOM Ready
+↓
+Network Idle
+↓
+Images Loaded
+↓
+Fonts Loaded
+↓
+Animation Timeout
+↓
+
+
+--- Page 76 ---
+Ready for Capture
+Never capture before the page becomes stable.
+=================================================================
+SCROLL STRATEGY
+=================================================================
+Incremental Scrolling
+↓
+Wait
+↓
+Continue
+↓
+Detect Lazy Loading
+↓
+Continue
+↓
+Bottom Reached
+↓
+Return to Top
+↓
+Capture
+=================================================================
+LAZY LOADING SUPPORT
+=================================================================
+Detect
+
+
+--- Page 77 ---
+Images
+Videos
+Cards
+Infinite Sections
+Lazy Components
+Retry loading until maximum threshold.
+=================================================================
+POPUP HANDLING
+=================================================================
+Attempt automatic closing for
+Cookie Banner
+Newsletter Popup
+Chat Widgets
+Location Dialogs
+Notification Dialogs
+Age Verification
+If popup cannot be closed,
+log warning
+continue safely.
+=================================================================
+SCREENSHOT TYPES
+=================================================================
+Desktop
+Tablet
+
+
+--- Page 78 ---
+Mobile
+Full Page
+Hero Section
+Header
+Footer
+Optional Component Screenshots
+=================================================================
+IMAGE QUALITY
+=================================================================
+PNG
+Lossless
+Preferred
+JPEG
+Optional
+Compression
+Configurable
+Color Profile
+sRGB
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+browser_engine.py
+browser_context.py
+
+
+--- Page 79 ---
+viewport_profiles.py
+navigation_service.py
+page_loader.py
+scroll_engine.py
+lazy_loader.py
+popup_handler.py
+capture_engine.py
+image_optimizer.py
+metadata_generator.py
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+screenshots/
+desktop/
+tablet/
+mobile/
+fullpage/
+metadata/
+logs/
+=================================================================
+DATABASE
+=================================================================
+
+
+--- Page 80 ---
+Table
+prototype_screenshots
+Fields
+id
+job_id
+desktop_path
+tablet_path
+mobile_path
+fullpage_path
+capture_duration
+page_height
+page_width
+browser
+status
+created_at
+=================================================================
+METADATA
+=================================================================
+Store
+Resolution
+Viewport
+Browser
+Capture Time
+
+
+--- Page 81 ---
+Page Height
+Page Width
+Compression Ratio
+Capture Duration
+=================================================================
+LOGGING
+=================================================================
+Log
+Browser Launch
+Navigation Start
+Navigation Complete
+Scroll Start
+Scroll Complete
+Lazy Load Detection
+Popup Closed
+Screenshot Saved
+Compression
+Metadata Generated
+Completion
+=================================================================
+ERROR HANDLING
+=================================================================
+Browser Crash
+Navigation Timeout
+
+
+--- Page 82 ---
+Rendering Failure
+Image Save Failure
+Viewport Failure
+Memory Overflow
+Retry Strategy
+Maximum Retry Count
+Graceful Exit
+=================================================================
+CONFIGURATION
+=================================================================
+Headless Mode
+Viewport Profiles
+Timeout
+Retry Count
+Compression Quality
+Output Folder
+Browser Selection
+=================================================================
+PERFORMANCE REQUIREMENTS
+=================================================================
+Browser Startup
+< 5 Seconds
+Navigation
+Configurable
+
+
+--- Page 83 ---
+Capture Time
+Optimized
+Memory Usage
+Controlled
+Parallel Capture
+Supported
+=================================================================
+SECURITY RULES
+=================================================================
+Do not bypass authentication.
+Do not capture protected pages.
+Do not access private content.
+Respect robots.txt where applicable.
+Do not store cookies permanently.
+=================================================================
+UNIT TESTS
+=================================================================
+Browser Launch
+Navigation
+Viewport
+Scrolling
+Lazy Loading
+Popup Detection
+Capture
+
+
+--- Page 84 ---
+Compression
+Metadata
+=================================================================
+INTEGRATION TESTS
+=================================================================
+Pipeline Execution
+Database Storage
+Logging
+Configuration
+Filesystem
+=================================================================
+PASS CONDITIONS
+=================================================================
+Desktop Screenshot Generated
+Tablet Screenshot Generated
+Mobile Screenshot Generated
+Full Page Screenshot Generated
+Metadata Generated
+Database Updated
+Logs Written
+All Tests Passed
+=================================================================
+FAIL CONDITIONS
+=================================================================
+Browser Failed
+
+
+--- Page 85 ---
+Navigation Failed
+Capture Failed
+Filesystem Error
+Unhandled Exception
+Metadata Missing
+=================================================================
+AUDIT REPORT
+=================================================================
+Files Created
+Execution Time
+Browser Used
+Viewport Profiles
+Capture Statistics
+Warnings
+Errors
+PASS / FAIL
+Recommendations
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+Screenshot Intelligence Engine becomes READ ONLY.
+No architectural modifications allowed without approval.
+=================================================================
+GLOBAL RESTRICTIONS
+

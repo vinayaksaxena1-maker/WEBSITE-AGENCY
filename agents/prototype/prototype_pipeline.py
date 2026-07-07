@@ -48,28 +48,28 @@ class PrototypePipeline:
             dom_data = await self.dom_analyzer.analyze(html_content, job_id=job_id)
 
             # 5. Visual Analysis
-            visuals = await self.visual_analyzer.analyze_visuals(screenshots)
+            visuals = await self.visual_analyzer.analyze_visuals(screenshots, html_content=html_content, job_id=job_id)
 
             # 6. Select Theme
-            theme = await self.theme_engine.select_theme(category, visuals)
+            theme = await self.theme_engine.select_theme(category, visuals, job_id=job_id)
 
             # 7. Generate Layout Grid
-            layout = await self.layout_engine.create_layout_grid(dom_data.get("sections", []), theme)
+            layout = await self.layout_engine.create_layout_grid(dom_data.get("sections", []), theme, job_id=job_id)
 
             # 8. Assemble Reusable Components
-            raw_components = await self.component_engine.assemble_components(layout)
+            raw_components = await self.component_engine.assemble_components(layout, theme=theme, job_id=job_id)
 
             # 9. Apply Responsive Viewport Overrides
-            responsive_components = await self.responsive_engine.make_responsive(raw_components)
+            responsive_components = await self.responsive_engine.make_responsive(raw_components, job_id=job_id)
 
             # 10. Generate Output HTML / CSS Files
-            files = await self.html_generator.generate(responsive_components, theme)
+            files = await self.html_generator.generate(responsive_components, theme, job_id=job_id)
 
             # 11. Generate High-Res Preview snapshot
-            preview_path = await self.preview_generator.generate_preview(files.get("html_path", ""))
+            preview_path = await self.preview_generator.generate_preview(files.get("html_path", ""), job_id=job_id)
 
             # 12. Evaluate Quality score
-            quality = await self.quality_analyzer.analyze_quality(files.get("html_path", ""), files.get("css_path", ""))
+            quality = await self.quality_analyzer.analyze_quality(files.get("html_path", ""), files.get("css_path", ""), job_id=job_id)
 
             # Close browser context
             await self.browser.close()

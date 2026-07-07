@@ -1,0 +1,602 @@
+
+--- Page 104 ---
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.3
+### DOM INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the DOM Intelligence Engine.
+Do NOT implement Visual Intelligence.
+Do NOT implement Theme Intelligence.
+Do NOT implement HTML Generation.
+Do NOT implement Preview Generation.
+Do NOT continue to Phase 7.4.
+The DOM Intelligence Engine is responsible for understanding the
+logical structure of an existing website.
+It must transform an HTML document into a structured component map
+that can later be used by the Prototype Intelligence Engine.
+This module never redesigns the website.
+It only understands its structure.
+=================================================================
+OBJECTIVE
+=================================================================
+Analyze the complete Document Object Model (DOM)
+and convert it into structured information.
+The engine must identify:
+• Website Structure
+• Components
+• Layout
+• Content Hierarchy
+
+
+--- Page 105 ---
+• Navigation
+• Forms
+• Calls To Action
+• Semantic Relationships
+The generated data will become the foundation for every future
+design decision.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Load DOM
+Parse HTML
+Remove Noise
+Build DOM Tree
+Detect Sections
+Detect Components
+Detect Navigation
+Detect CTA
+Detect Forms
+Detect Layout
+Generate Component Map
+Generate Structure Report
+=================================================================
+INPUT
+=================================================================
+Website URL
+Rendered HTML
+
+
+--- Page 106 ---
+Browser DOM
+Screenshot Metadata
+Audit Report
+=================================================================
+OUTPUT
+=================================================================
+DOM Tree
+Component Map
+Semantic Structure
+Layout Structure
+Navigation Structure
+Section Hierarchy
+DOM Analysis Report
+=================================================================
+DOM PIPELINE
+=================================================================
+Rendered Page
+↓
+HTML Extraction
+↓
+DOM Parsing
+↓
+Node Classification
+↓
+
+
+--- Page 107 ---
+Semantic Detection
+↓
+Component Detection
+↓
+Layout Detection
+↓
+Hierarchy Analysis
+↓
+Relationship Mapping
+↓
+Component Map
+↓
+DOM Report
+=================================================================
+DOM PREPROCESSING
+=================================================================
+Remove
+Scripts
+Tracking Code
+Analytics
+Advertisements
+Hidden Elements
+Duplicate Nodes
+
+
+--- Page 108 ---
+Comments
+Unused Styles
+Normalize DOM
+=================================================================
+NODE CLASSIFICATION
+=================================================================
+Detect
+Header
+Navigation
+Hero
+Main Content
+Section
+Article
+Card
+Sidebar
+Footer
+Form
+Button
+Modal
+Popup
+Banner
+Image
+Video
+
+
+--- Page 109 ---
+Table
+Accordion
+Tabs
+=================================================================
+SEMANTIC TAG DETECTION
+=================================================================
+Identify
+header
+nav
+main
+section
+article
+aside
+footer
+form
+button
+figure
+picture
+video
+ul
+ol
+table
+canvas
+
+
+--- Page 110 ---
+svg
+=================================================================
+SECTION DETECTION
+=================================================================
+Identify
+Hero Section
+About Section
+Services
+Products
+Features
+Pricing
+Portfolio
+Gallery
+Testimonials
+Statistics
+FAQ
+Contact
+Footer
+=================================================================
+NAVIGATION ANALYSIS
+=================================================================
+Detect
+Primary Navigation
+Secondary Navigation
+
+
+--- Page 111 ---
+Mega Menu
+Dropdown
+Sticky Header
+Mobile Navigation
+Hamburger Menu
+Breadcrumbs
+=================================================================
+CTA DETECTION
+=================================================================
+Locate
+Primary CTA
+Secondary CTA
+Buttons
+Action Links
+Call Buttons
+WhatsApp Buttons
+Booking Buttons
+Purchase Buttons
+Contact Buttons
+=================================================================
+FORM DETECTION
+=================================================================
+Identify
+Contact Forms
+
+
+--- Page 112 ---
+Newsletter
+Search Forms
+Login Forms
+Registration Forms
+Booking Forms
+Quote Forms
+Feedback Forms
+=================================================================
+CARD DETECTION
+=================================================================
+Detect
+Service Cards
+Feature Cards
+Product Cards
+Pricing Cards
+Blog Cards
+Team Cards
+Testimonial Cards
+Portfolio Cards
+=================================================================
+LAYOUT ANALYSIS
+=================================================================
+Detect
+Single Column
+
+
+--- Page 113 ---
+Two Column
+Three Column
+Grid
+Flex Layout
+Mixed Layout
+Nested Sections
+Container Width
+Spacing Pattern
+=================================================================
+CONTENT HIERARCHY
+=================================================================
+Generate
+Heading Levels
+Content Groups
+Reading Order
+Visual Importance
+Parent Child Relationships
+Nested Structures
+=================================================================
+COMPONENT MAP
+=================================================================
+Generate
+Component ID
+Component Type
+
+
+--- Page 114 ---
+Position
+Parent
+Children
+Section
+Priority
+Importance
+Visibility
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+dom_engine.py
+dom_parser.py
+dom_classifier.py
+semantic_detector.py
+component_mapper.py
+section_detector.py
+navigation_detector.py
+cta_detector.py
+form_detector.py
+layout_analyzer.py
+hierarchy_builder.py
+dom_models.py
+
+
+--- Page 115 ---
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+dom/
+parsed/
+maps/
+reports/
+logs/
+=================================================================
+DATABASE
+=================================================================
+Table
+prototype_dom_analysis
+Fields
+id
+job_id
+component_count
+section_count
+navigation_type
+layout_type
+cta_count
+form_count
+
+
+--- Page 116 ---
+analysis_time
+status
+created_at
+=================================================================
+CONFIGURATION
+=================================================================
+Parser Engine
+Ignored Tags
+Ignored Classes
+Maximum DOM Size
+Timeout
+Report Level
+Output Format
+=================================================================
+LOGGING
+=================================================================
+Log
+DOM Loaded
+Parsing Started
+Parsing Complete
+Components Found
+Sections Found
+Forms Found
+Navigation Found
+
+
+--- Page 117 ---
+Hierarchy Generated
+Report Generated
+=================================================================
+ERROR HANDLING
+=================================================================
+Malformed HTML
+Large DOM
+Parser Timeout
+Unsupported Elements
+Memory Limit
+Unknown Tags
+Graceful Recovery
+Retry Logic
+=================================================================
+PERFORMANCE REQUIREMENTS
+=================================================================
+Efficient Parsing
+Memory Optimized
+Large DOM Support
+Parallel Node Analysis
+Incremental Processing
+=================================================================
+SECURITY RULES
+=================================================================
+Do not execute JavaScript.
+
+
+--- Page 118 ---
+Do not modify page content.
+Do not inject scripts.
+Do not access protected resources.
+Analyze rendered DOM only.
+=================================================================
+UNIT TESTS
+=================================================================
+HTML Parsing
+Semantic Detection
+Navigation Detection
+CTA Detection
+Forms
+Cards
+Layout
+Hierarchy
+Component Mapping
+=================================================================
+INTEGRATION TESTS
+=================================================================
+Browser Integration
+Database
+Logging
+Configuration
+Filesystem
+
+
+--- Page 119 ---
+Pipeline
+=================================================================
+PASS CONDITIONS
+=================================================================
+DOM Parsed Successfully
+Components Identified
+Sections Generated
+Hierarchy Generated
+Database Updated
+Report Generated
+Logs Written
+All Tests Passed
+=================================================================
+FAIL CONDITIONS
+=================================================================
+DOM Parsing Failed
+Malformed HTML
+Hierarchy Failure
+Component Mapping Failure
+Unhandled Exception
+Database Failure
+=================================================================
+AUDIT REPORT
+=================================================================
+Files Created
+
+
+--- Page 120 ---
+DOM Nodes
+Sections
+Components
+Forms
+CTAs
+Navigation Type
+Execution Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+DOM Intelligence Engine becomes READ ONLY.
+No structural modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT analyze colors.
+Do NOT analyze typography.
+Do NOT generate themes.
+Do NOT redesign layouts.
+Do NOT generate HTML.
+
+
+--- Page 121 ---
+Do NOT continue to Phase 7.4.
+Wait for:
+PART 2B-2C
+PHASE 7.4
+VISUAL INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.3
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.5
+### THEME INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Theme Intelligence Engine.
+Do NOT implement Component Intelligence.
+Do NOT implement Layout Intelligence.
+Do NOT implement Responsive Engine.
+Do NOT implement HTML Generation.
+Do NOT continue to Phase 7.6.
+The Theme Intelligence Engine is responsible for selecting the
+most suitable visual design language for a business based on
+its industry, brand identity, audit results, business goals,
+and visual intelligence report.
+The engine shall never randomly assign themes.
+Every recommendation must be rule-driven and explainable.
+
+
+--- Page 122 ---
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an intelligent design theme that improves the
+website while preserving the business identity.
+The selected theme becomes the design foundation for all
+future prototype generation.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Business
+Analyze Industry
+Analyze Brand
+Analyze Audience
+Analyze Visual Report
+Analyze Audit Report
+Select Theme
+Generate Theme Tokens
+Generate Theme Rules
+Generate Theme Report
+=================================================================
+INPUT
+=================================================================
+Business Category
+Business Name
+Audit Report
+
+
+--- Page 123 ---
+DOM Report
+Visual Intelligence Report
+Lead Score
+Business Profile
+=================================================================
+OUTPUT
+=================================================================
+Selected Theme
+Theme Profile
+Color Tokens
+Typography Tokens
+Spacing Tokens
+Elevation Tokens
+Border Radius Tokens
+Animation Profile
+Theme Recommendation Report
+=================================================================
+THEME PIPELINE
+=================================================================
+Business Category
+↓
+Business Analysis
+↓
+Industry Mapping
+
+
+--- Page 124 ---
+↓
+Brand Personality
+↓
+Design Style Selection
+↓
+Theme Matching
+↓
+Token Generation
+↓
+Accessibility Validation
+↓
+Theme Score
+↓
+Theme Report
+=================================================================
+SUPPORTED INDUSTRIES
+=================================================================
+Book Publisher
+Educational Institute
+Hospital
+Clinic
+Restaurant
+Hotel
+
+
+--- Page 125 ---
+Travel Agency
+Law Firm
+Real Estate
+Architecture
+Interior Design
+Corporate
+Consulting
+Finance
+Insurance
+Technology
+Software
+Marketing
+NGO
+Government
+Manufacturing
+Portfolio
+Creative Agency
+Photography
+Jewelry
+Fashion
+E-Commerce
+Automobile
+

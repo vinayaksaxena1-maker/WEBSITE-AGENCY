@@ -1,0 +1,525 @@
+
+--- Page 177 ---
+LOCK CONDITIONS
+=================================================================
+After PASS
+Layout Intelligence Engine becomes READ ONLY.
+No modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate Responsive Code.
+Do NOT generate HTML.
+Do NOT generate CSS.
+Do NOT generate Preview.
+Do NOT continue to Phase 7.8.
+Wait for:
+PART 2B-2C
+PHASE 7.8
+RESPONSIVE INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.7
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.8
+### RESPONSIVE INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+
+
+--- Page 178 ---
+Implement only the Responsive Intelligence Engine.
+Do NOT implement HTML Generation.
+Do NOT implement CSS Generation.
+Do NOT implement Preview Engine.
+Do NOT continue to Phase 7.9.
+The Responsive Intelligence Engine is responsible for transforming
+the approved Layout Blueprint into a fully responsive layout
+specification.
+This engine generates responsive behavior only.
+It never generates HTML.
+It never generates CSS.
+It produces Responsive Blueprint Definitions.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an adaptive responsive structure capable of providing
+an optimal user experience across all supported devices.
+The Responsive Intelligence Engine must ensure that every component,
+section and layout remains usable regardless of screen size.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Layout Blueprint
+Analyze Component Tree
+Analyze Grid System
+Generate Breakpoints
+
+
+--- Page 179 ---
+Generate Responsive Rules
+Generate Component Adaptation
+Generate Typography Scaling
+Generate Spacing Scaling
+Generate Navigation Rules
+Generate Responsive Blueprint
+Generate Responsive Report
+=================================================================
+INPUT
+=================================================================
+Layout Blueprint
+Component Tree
+Theme Tokens
+Grid Definition
+Spacing Rules
+Container Rules
+Business Category
+=================================================================
+OUTPUT
+=================================================================
+Responsive Blueprint
+Breakpoint Rules
+Component Responsive Rules
+Responsive Grid Rules
+
+
+--- Page 180 ---
+Typography Scale
+Spacing Scale
+Responsive Navigation Rules
+Responsive Report
+=================================================================
+RESPONSIVE PIPELINE
+=================================================================
+Layout Blueprint
+↓
+Breakpoint Analysis
+↓
+Grid Transformation
+↓
+Container Adaptation
+↓
+Component Adaptation
+↓
+Typography Scaling
+↓
+Spacing Scaling
+↓
+Navigation Adaptation
+↓
+
+
+--- Page 181 ---
+Responsive Validation
+↓
+Responsive Blueprint
+↓
+Responsive Report
+=================================================================
+SUPPORTED DEVICES
+=================================================================
+Large Desktop
+Desktop
+Laptop
+Tablet Landscape
+Tablet Portrait
+Large Mobile
+Mobile
+Small Mobile
+=================================================================
+BREAKPOINT SYSTEM
+=================================================================
+Desktop XL
+Desktop
+Laptop
+Tablet
+Mobile Large
+
+
+--- Page 182 ---
+Mobile
+Small Mobile
+Breakpoints must be configurable.
+=================================================================
+RESPONSIVE STRATEGY
+=================================================================
+Desktop First Blueprint
+↓
+Responsive Adaptation
+↓
+Tablet Optimization
+↓
+Mobile Optimization
+↓
+Accessibility Validation
+↓
+Responsive Blueprint
+=================================================================
+GRID ADAPTATION
+=================================================================
+Support
+12 Column Grid
+8 Column Grid
+6 Column Grid
+
+
+--- Page 183 ---
+4 Column Grid
+2 Column Grid
+1 Column Grid
+Auto Grid
+Fluid Grid
+=================================================================
+CONTAINER ADAPTATION
+=================================================================
+Generate
+Max Width
+Fluid Width
+Padding
+Margins
+Safe Areas
+Alignment
+=================================================================
+SECTION ADAPTATION
+=================================================================
+Optimize
+Hero
+About
+Services
+Features
+Pricing
+
+
+--- Page 184 ---
+Portfolio
+Gallery
+Blog
+Contact
+Footer
+=================================================================
+COMPONENT ADAPTATION
+=================================================================
+Generate
+Responsive Cards
+Responsive Buttons
+Responsive Forms
+Responsive Images
+Responsive Tables
+Responsive Navigation
+Responsive CTA
+Responsive Footer
+=================================================================
+TYPOGRAPHY SCALING
+=================================================================
+Generate
+Heading Scale
+Body Scale
+Caption Scale
+
+
+--- Page 185 ---
+Button Scale
+Navigation Scale
+Line Height
+Letter Spacing
+=================================================================
+SPACING SCALING
+=================================================================
+Generate
+Container Padding
+Section Padding
+Grid Gap
+Card Gap
+Button Gap
+Content Gap
+Margin Scale
+=================================================================
+IMAGE ADAPTATION
+=================================================================
+Generate
+Responsive Width
+Aspect Ratio
+Object Fit
+Lazy Loading Rule
+Compression Rule
+
+
+--- Page 186 ---
+Priority Rule
+=================================================================
+NAVIGATION ADAPTATION
+=================================================================
+Desktop Navigation
+↓
+Tablet Navigation
+↓
+Hamburger Menu
+↓
+Drawer Navigation
+↓
+Sticky Navigation
+↓
+Bottom Navigation (Optional)
+=================================================================
+FORM ADAPTATION
+=================================================================
+Inputs
+Buttons
+Validation Messages
+Dropdowns
+Checkboxes
+Radio Buttons
+
+
+--- Page 187 ---
+Textarea
+Submit Buttons
+=================================================================
+RESPONSIVE ACCESSIBILITY
+=================================================================
+Maintain
+Touch Targets
+Readable Text
+Contrast
+Spacing
+Keyboard Navigation
+Focus Order
+=================================================================
+PERFORMANCE RULES
+=================================================================
+Reduce
+DOM Complexity
+Rendering Cost
+Animation Load
+Image Weight
+Unused Components
+=================================================================
+DEVICE VALIDATION
+=================================================================
+Validate
+
+
+--- Page 188 ---
+Desktop
+Laptop
+Tablet
+Tablet Portrait
+Tablet Landscape
+Large Mobile
+Mobile
+Small Mobile
+=================================================================
+RESPONSIVE BLUEPRINT
+=================================================================
+Generate
+Breakpoint Definitions
+Component Rules
+Container Rules
+Typography Rules
+Spacing Rules
+Grid Rules
+Visibility Rules
+Interaction Rules
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+
+
+--- Page 189 ---
+responsive_engine.py
+breakpoint_manager.py
+responsive_rules.py
+grid_adapter.py
+container_adapter.py
+component_adapter.py
+typography_scaler.py
+spacing_scaler.py
+navigation_adapter.py
+responsive_validator.py
+responsive_report.py
+responsive_models.py
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+responsive/
+breakpoints/
+rules/
+reports/
+logs/
+=================================================================
+DATABASE
+
+
+--- Page 190 ---
+=================================================================
+Table
+prototype_responsive
+Fields
+id
+job_id
+breakpoint_profile
+device_support
+responsive_score
+validation_status
+execution_time
+created_at
+=================================================================
+CONFIGURATION
+=================================================================
+Breakpoint Profiles
+Responsive Rules
+Device Matrix
+Container Widths
+Typography Scale
+Spacing Scale
+Performance Rules
+Accessibility Rules
+
+
+--- Page 191 ---
+=================================================================
+LOGGING
+=================================================================
+Log
+Breakpoint Generation
+Grid Adaptation
+Container Adaptation
+Typography Scaling
+Spacing Scaling
+Validation
+Blueprint Export
+Responsive Report
+=================================================================
+ERROR HANDLING
+=================================================================
+Invalid Layout
+Breakpoint Conflict
+Component Conflict
+Scaling Failure
+Validation Failure
+Configuration Error
+Retry Logic
+Graceful Recovery
+=================================================================
+PERFORMANCE REQUIREMENTS
+
+
+--- Page 192 ---
+=================================================================
+Deterministic Output
+Blueprint Caching
+Low Memory Usage
+Parallel Processing
+Reusable Rules
+=================================================================
+SECURITY RULES
+=================================================================
+Never generate executable code.
+Never modify source assets.
+Generate responsive specifications only.
+=================================================================
+UNIT TESTS
+=================================================================
+Breakpoint Tests
+Grid Tests
+Typography Tests
+Spacing Tests
+Navigation Tests
+Validation Tests
+Blueprint Tests
+=================================================================
+INTEGRATION TESTS
+=================================================================
+
+
+--- Page 193 ---
+Layout Engine
+Theme Engine
+Component Engine
+Database
+Logging
+Filesystem
+Pipeline
+=================================================================
+PASS CONDITIONS
+=================================================================
+Responsive Blueprint Generated
+Breakpoints Generated
+Typography Scale Generated
+Spacing Rules Generated
+Validation Passed
+Database Updated
+Logs Written
+All Tests Passed
+=================================================================
+FAIL CONDITIONS
+=================================================================
+Breakpoint Failure
+Scaling Failure
+Validation Failure
+
+
+--- Page 194 ---
+Unhandled Exception
+Database Failure
+=================================================================
+AUDIT REPORT
+=================================================================
+Breakpoint Profiles
+Supported Devices
+Responsive Score
+Validation Results
+Execution Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+Responsive Intelligence Engine becomes READ ONLY.
+No architectural modifications allowed without approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate HTML.
+Do NOT generate CSS.
+Do NOT generate Preview.
+
+
+--- Page 195 ---
+Do NOT continue to Phase 7.9.
+Wait for:
+PART 2B-2C
+PHASE 7.9
+HTML GENERATION ENGINE
+=================================================================
+END OF PHASE 7.8
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.9
+### HTML GENERATION ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the HTML Generation Engine.
+Do NOT implement Preview Engine.
+Do NOT implement Quality Intelligence.
+Do NOT implement Export Engine.
+Do NOT continue to Phase 7.10.
+The HTML Generation Engine is responsible for converting the
+approved Responsive Blueprint into a production-quality HTML
+prototype.
+This engine must generate clean, semantic, maintainable,
+responsive and accessible code.
+The generated output is intended for demonstration purposes.
+It must never clone an existing website.
+

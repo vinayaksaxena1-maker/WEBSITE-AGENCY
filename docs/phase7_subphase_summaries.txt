@@ -1,0 +1,835 @@
+
+==================================================
+PHASE 7.1 SPECIFICATION (Starting Page 59)
+==================================================
+
+--- Page 59 ---
+Do NOT access OpenAI.
+Do NOT implement CRM.
+Do NOT continue to Phase 7.
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.1
+### PROTOTYPE INTELLIGENCE ENGINE (PIE)
+### FOUNDATION & CORE ARCHITECTURE
+=================================================================
+MISSION
+=================================================================
+Implement only Phase 7.
+Do not continue to Phase 8.
+Prototype Intelligence Engine is responsible for producing a professional
+responsive HTML website prototype based on an existing business website.
+The generated prototype must demonstrate how the customer's website can be
+improved.
+The engine is not intended to clone the original website.
+It must generate an improved design while preserving the business identity.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate a high-quality responsive HTML prototype using:
+• Existing Website
+• Website Screenshot
+• DOM Structure
+• Business Category
+• Theme Library
+• Component Library
+
+
+--- Page 60 ---
+Output must be production-quality preview code.
+=================================================================
+PRIMARY GOALS
+=================================================================
+Improve Design
+Improve UX
+Improve Mobile Experience
+Improve CTA Placement
+Improve Visual Hierarchy
+Improve Trust Signals
+Improve Branding
+Improve Readability
+Improve Conversion Potential
+=================================================================
+INPUTS
+=================================================================
+Website URL
+Audit Report
+Business Profile
+Lead Information
+Business Category
+Theme Recommendation
+=================================================================
+OUTPUTS
+=================================================================
+
+
+==================================================
+PHASE 7.2 SPECIFICATION (Starting Page 69)
+==================================================
+
+--- Page 69 ---
+DOM Parsing Failed
+Theme Missing
+Generation Failed
+Unhandled Exception
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT implement Email Engine.
+Do NOT implement CRM.
+Do NOT implement Telegram.
+Do NOT continue to Phase 8.
+Wait for:
+Phase 7.2
+Screenshot Intelligence Engine
+=================================================================
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.2
+### SCREENSHOT INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Screenshot Intelligence Engine.
+Do NOT implement DOM Intelligence.
+Do NOT implement Theme Intelligence.
+
+
+--- Page 70 ---
+Do NOT implement HTML Generation.
+Do NOT implement Preview Generation.
+Do NOT continue to Phase 7.3.
+This module is responsible only for capturing high-quality website
+screenshots that will be used by every downstream Prototype
+Intelligence Engine module.
+This engine becomes the visual data provider for the entire Prototype
+Generation Pipeline.
+=================================================================
+OBJECTIVE
+=================================================================
+Capture a complete, accurate and production-quality visual
+representation of a business website.
+The Screenshot Engine must support websites of different sizes,
+technologies and layouts while producing consistent screenshots
+for AI analysis.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Open Website
+Wait for Stable Page
+Handle Dynamic Loading
+Scroll Complete Page
+Capture Full Page
+Capture Desktop View
+Capture Tablet View
+Capture Mobile View
+
+
+==================================================
+PHASE 7.3 SPECIFICATION (Starting Page 86)
+==================================================
+
+--- Page 86 ---
+=================================================================
+Do NOT implement DOM Analysis.
+Do NOT analyze colors.
+Do NOT analyze typography.
+Do NOT detect components.
+Do NOT generate HTML.
+Do NOT generate CSS.
+Do NOT generate Preview.
+Do NOT continue to Phase 7.3.
+Wait for:
+PART 2B-2C
+PHASE 7.3
+DOM INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.2
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.3
+### DOM INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the DOM Intelligence Engine.
+Do NOT implement Visual Intelligence.
+Do NOT implement Theme Intelligence.
+
+
+--- Page 87 ---
+Do NOT implement HTML Generation.
+Do NOT implement Preview Generation.
+Do NOT continue to Phase 7.4.
+The DOM Intelligence Engine is responsible for understanding the
+logical structure of an existing website.
+It must transform an HTML document into a structured component map
+that can later be used by the Prototype Intelligence Engine.
+This module never redesigns the website.
+It only understands its structure.
+=================================================================
+OBJECTIVE
+=================================================================
+Analyze the complete Document Object Model (DOM)
+and convert it into structured information.
+The engine must identify:
+• Website Structure
+• Components
+• Layout
+• Content Hierarchy
+• Navigation
+• Forms
+• Calls To Action
+• Semantic Relationships
+The generated data will become the foundation for every future
+design decision.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Load DOM
+
+
+==================================================
+PHASE 7.4 SPECIFICATION (Starting Page 103)
+==================================================
+
+--- Page 103 ---
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+DOM Intelligence Engine becomes READ ONLY.
+No structural modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT analyze colors.
+Do NOT analyze typography.
+Do NOT generate themes.
+Do NOT redesign layouts.
+Do NOT generate HTML.
+Do NOT continue to Phase 7.4.
+Wait for:
+PART 2B-2C
+PHASE 7.4
+VISUAL INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.3
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+
+
+--- Page 104 ---
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.3
+### DOM INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the DOM Intelligence Engine.
+Do NOT implement Visual Intelligence.
+Do NOT implement Theme Intelligence.
+Do NOT implement HTML Generation.
+Do NOT implement Preview Generation.
+Do NOT continue to Phase 7.4.
+The DOM Intelligence Engine is responsible for understanding the
+logical structure of an existing website.
+It must transform an HTML document into a structured component map
+that can later be used by the Prototype Intelligence Engine.
+This module never redesigns the website.
+It only understands its structure.
+=================================================================
+OBJECTIVE
+=================================================================
+Analyze the complete Document Object Model (DOM)
+and convert it into structured information.
+The engine must identify:
+• Website Structure
+• Components
+• Layout
+• Content Hierarchy
+
+
+==================================================
+PHASE 7.5 SPECIFICATION (Starting Page 121)
+==================================================
+
+--- Page 121 ---
+Do NOT continue to Phase 7.4.
+Wait for:
+PART 2B-2C
+PHASE 7.4
+VISUAL INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.3
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.5
+### THEME INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Theme Intelligence Engine.
+Do NOT implement Component Intelligence.
+Do NOT implement Layout Intelligence.
+Do NOT implement Responsive Engine.
+Do NOT implement HTML Generation.
+Do NOT continue to Phase 7.6.
+The Theme Intelligence Engine is responsible for selecting the
+most suitable visual design language for a business based on
+its industry, brand identity, audit results, business goals,
+and visual intelligence report.
+The engine shall never randomly assign themes.
+Every recommendation must be rule-driven and explainable.
+
+
+--- Page 122 ---
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an intelligent design theme that improves the
+website while preserving the business identity.
+The selected theme becomes the design foundation for all
+future prototype generation.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Business
+Analyze Industry
+Analyze Brand
+Analyze Audience
+Analyze Visual Report
+Analyze Audit Report
+Select Theme
+Generate Theme Tokens
+Generate Theme Rules
+Generate Theme Report
+=================================================================
+INPUT
+=================================================================
+Business Category
+Business Name
+Audit Report
+
+
+==================================================
+PHASE 7.6 SPECIFICATION (Starting Page 141)
+==================================================
+
+--- Page 141 ---
+Do NOT generate CSS.
+Do NOT continue to Phase 7.6.
+Wait for:
+PART 2B-2C
+PHASE 7.6
+COMPONENT INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.5
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.6
+### COMPONENT INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Component Intelligence Engine.
+Do NOT implement Layout Intelligence.
+Do NOT implement Responsive Engine.
+Do NOT implement HTML Generation.
+Do NOT implement Preview Engine.
+Do NOT continue to Phase 7.7.
+The Component Intelligence Engine is responsible for selecting,
+building, validating, and assembling reusable UI components based on
+the outputs of the DOM Intelligence Engine, Visual Intelligence Engine,
+Theme Intelligence Engine, and Business Profile.
+This engine does not generate HTML.
+
+
+--- Page 142 ---
+It generates structured component definitions that will later be
+consumed by the HTML Generation Engine.
+=================================================================
+OBJECTIVE
+=================================================================
+Create a reusable component architecture capable of building
+industry-specific websites using standardized enterprise UI components.
+Every generated component must be:
+Reusable
+Responsive Ready
+Theme Compatible
+Accessibility Ready
+Independent
+Version Controlled
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Business
+Analyze Theme
+Analyze Layout
+Select Components
+Select Variants
+Generate Component Tree
+Generate Component Metadata
+Validate Components
+
+
+==================================================
+PHASE 7.7 SPECIFICATION (Starting Page 160)
+==================================================
+
+--- Page 160 ---
+PART 2B-2C
+PHASE 7.7
+LAYOUT INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.6
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.7
+### LAYOUT INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Layout Intelligence Engine.
+Do NOT implement Responsive Engine.
+Do NOT implement HTML Generation.
+Do NOT implement Preview Engine.
+Do NOT continue to Phase 7.8.
+The Layout Intelligence Engine is responsible for creating the
+structural arrangement of every page before HTML generation.
+This engine determines where every component should be placed,
+how sections relate to each other, how visual hierarchy is
+constructed, and how users flow through the page.
+This engine does not generate HTML.
+It generates a Layout Blueprint.
+=================================================================
+OBJECTIVE
+=================================================================
+
+
+--- Page 161 ---
+Generate a professional, conversion-oriented website layout
+based on:
+Business Category
+Business Goals
+Component Tree
+Theme Profile
+Visual Intelligence
+DOM Intelligence
+Audit Report
+The layout must improve usability while preserving business context.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Business Goals
+Analyze Component Tree
+Generate Section Order
+Generate Content Flow
+Generate Grid Layout
+Generate Container Rules
+Generate Spacing Rules
+Generate Layout Blueprint
+Generate Layout Report
+=================================================================
+INPUT
+=================================================================
+
+
+==================================================
+PHASE 7.8 SPECIFICATION (Starting Page 177)
+==================================================
+
+--- Page 177 ---
+LOCK CONDITIONS
+=================================================================
+After PASS
+Layout Intelligence Engine becomes READ ONLY.
+No modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate Responsive Code.
+Do NOT generate HTML.
+Do NOT generate CSS.
+Do NOT generate Preview.
+Do NOT continue to Phase 7.8.
+Wait for:
+PART 2B-2C
+PHASE 7.8
+RESPONSIVE INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.7
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.8
+### RESPONSIVE INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+
+
+--- Page 178 ---
+Implement only the Responsive Intelligence Engine.
+Do NOT implement HTML Generation.
+Do NOT implement CSS Generation.
+Do NOT implement Preview Engine.
+Do NOT continue to Phase 7.9.
+The Responsive Intelligence Engine is responsible for transforming
+the approved Layout Blueprint into a fully responsive layout
+specification.
+This engine generates responsive behavior only.
+It never generates HTML.
+It never generates CSS.
+It produces Responsive Blueprint Definitions.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an adaptive responsive structure capable of providing
+an optimal user experience across all supported devices.
+The Responsive Intelligence Engine must ensure that every component,
+section and layout remains usable regardless of screen size.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Layout Blueprint
+Analyze Component Tree
+Analyze Grid System
+Generate Breakpoints
+
+
+==================================================
+PHASE 7.9 SPECIFICATION (Starting Page 195)
+==================================================
+
+--- Page 195 ---
+Do NOT continue to Phase 7.9.
+Wait for:
+PART 2B-2C
+PHASE 7.9
+HTML GENERATION ENGINE
+=================================================================
+END OF PHASE 7.8
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.9
+### HTML GENERATION ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the HTML Generation Engine.
+Do NOT implement Preview Engine.
+Do NOT implement Quality Intelligence.
+Do NOT implement Export Engine.
+Do NOT continue to Phase 7.10.
+The HTML Generation Engine is responsible for converting the
+approved Responsive Blueprint into a production-quality HTML
+prototype.
+This engine must generate clean, semantic, maintainable,
+responsive and accessible code.
+The generated output is intended for demonstration purposes.
+It must never clone an existing website.
+
+
+--- Page 196 ---
+It must generate an original implementation using the approved
+layout, components and theme.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate a complete responsive website prototype from structured
+design intelligence.
+The engine shall produce:
+• Semantic HTML5
+• Tailwind CSS
+• Minimal JavaScript
+• Responsive Layout
+• Accessible Components
+• SEO Friendly Structure
+• Production Quality Code
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Load Blueprint
+Load Components
+Load Theme Tokens
+Load Responsive Rules
+Generate HTML
+Generate Tailwind Classes
+Generate Accessibility Markup
+
+
+==================================================
+PHASE 7.10 SPECIFICATION (Starting Page 216)
+==================================================
+
+--- Page 216 ---
+No modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate Preview.
+Do NOT generate Quality Intelligence.
+Do NOT generate Export Packages.
+Do NOT continue to Phase 7.10.
+Wait for:
+PART 2B-2C
+PHASE 7.10
+PREVIEW ENGINE
+=================================================================
+END OF PHASE 7.9
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.10
+### PREVIEW ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Preview Engine.
+Do NOT implement Quality Intelligence.
+Do NOT implement Prototype Export Engine.
+Do NOT continue to Phase 7.11.
+The Preview Engine is responsible for transforming the generated
+
+
+--- Page 217 ---
+HTML prototype into a presentation-ready interactive preview.
+This engine is the first visual output that a client will see.
+The objective is to present the generated prototype in the most
+professional, responsive and reliable manner.
+The Preview Engine shall never modify HTML.
+It only renders and validates the generated prototype.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an enterprise-quality preview environment capable of
+displaying responsive prototypes across multiple devices.
+Generate presentation assets that can be used for
+Client Review
+Internal QA
+Sales Demonstration
+Approval Workflow
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Load Prototype
+Launch Preview Server
+Render Prototype
+Capture Preview
+Generate Device Views
+Generate Before/After Comparison
+
+
+==================================================
+PHASE 7.11 SPECIFICATION (Starting Page 231)
+==================================================
+
+--- Page 231 ---
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT implement Quality Intelligence.
+Do NOT implement Export Engine.
+Do NOT continue to Phase 7.11.
+Wait for:
+PART 2B-2C
+PHASE 7.11
+QUALITY INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.10
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.11
+### QUALITY INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Quality Intelligence Engine.
+Do NOT implement Prototype Export Engine.
+Do NOT continue to Phase 7.12.
+The Quality Intelligence Engine is responsible for performing
+the final enterprise quality inspection of every generated
+prototype before it is approved for presentation.
+This engine is the final automated reviewer of the complete
+Prototype Intelligence Engine pipeline.
+
+
+--- Page 232 ---
+The engine never modifies the prototype.
+It only validates, measures, scores and certifies quality.
+=================================================================
+OBJECTIVE
+=================================================================
+Evaluate every generated prototype against enterprise
+quality standards.
+Generate measurable quality scores.
+Identify defects.
+Generate recommendations.
+Determine whether the prototype is ready for client presentation.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Validate HTML
+Validate Responsive Layout
+Validate Accessibility
+Validate Performance
+Validate SEO
+Validate Components
+Validate Theme
+Validate Typography
+Validate Images
+Validate UX
+Generate Quality Scores
+
+
+==================================================
+PHASE 7.12 SPECIFICATION (Starting Page 248)
+==================================================
+
+--- Page 248 ---
+Critical Issues
+Warnings
+Recommendations
+Execution Time
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+Quality Intelligence Engine becomes READ ONLY.
+No modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT implement Export Engine.
+Do NOT continue to Phase 7.12.
+Wait for:
+PART 2B-2C
+PHASE 7.12
+PROTOTYPE EXPORT ENGINE
+=================================================================
+END OF PHASE 7.11
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.12
+
+
+--- Page 249 ---
+### PROTOTYPE EXPORT ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Prototype Export Engine.
+Do NOT implement Final Certification.
+Do NOT continue to Phase 7.13.
+The Prototype Export Engine is responsible for packaging every
+approved prototype into standardized client-ready deliverables.
+The engine shall export only prototypes that have successfully
+passed the Quality Intelligence Engine.
+No export shall be allowed without certification approval.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate professional delivery packages that can be shared with
+clients, internal teams and future development workflows.
+The export process must be deterministic, version-controlled and
+repeatable.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Validate Certification
+Collect Build Assets
+Generate Export Package
+Generate Static Website
+Generate ZIP Package
+
+
+==================================================
+PHASE 7.13 SPECIFICATION (Starting Page 264)
+==================================================
+
+--- Page 264 ---
+Wait for:
+PART 2B-2C
+PHASE 7.13
+FINAL PIE VALIDATION
+PASS / FAIL
+PHASE LOCK
+=================================================================
+END OF PHASE 7.12
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.13
+### FINAL PIE VALIDATION
+### PASS / FAIL
+### PHASE LOCK
+=================================================================
+MISSION
+=================================================================
+Implement only the Final PIE Validation System.
+Do NOT implement Phase 8.
+Do NOT modify any previous Phase 7 module.
+This phase performs the final validation of the entire Prototype
+Intelligence Engine (PIE).
+Every module developed from Phase 7.1 through Phase 7.12 shall be
+validated as one integrated enterprise system.
+This phase determines whether PIE is approved for production use.
+=================================================================
+OBJECTIVE
+=================================================================
+Validate the complete Prototype Intelligence Engine.
+
+
+--- Page 265 ---
+Confirm that every module works correctly.
+Ensure production readiness.
+Generate the final certification.
+Lock the complete Phase 7.
+=================================================================
+VALIDATION SCOPE
+=================================================================
+Validate
+Screenshot Engine
+DOM Intelligence
+Visual Intelligence
+Theme Intelligence
+Component Intelligence
+Layout Intelligence
+Responsive Intelligence
+HTML Generation
+Preview Engine
+Quality Intelligence
+Prototype Export
+=================================================================
+END TO END PIPELINE
+=================================================================
+Website URL
+↓
+

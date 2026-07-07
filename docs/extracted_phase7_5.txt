@@ -1,0 +1,490 @@
+
+--- Page 121 ---
+Do NOT continue to Phase 7.4.
+Wait for:
+PART 2B-2C
+PHASE 7.4
+VISUAL INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.3
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.5
+### THEME INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Theme Intelligence Engine.
+Do NOT implement Component Intelligence.
+Do NOT implement Layout Intelligence.
+Do NOT implement Responsive Engine.
+Do NOT implement HTML Generation.
+Do NOT continue to Phase 7.6.
+The Theme Intelligence Engine is responsible for selecting the
+most suitable visual design language for a business based on
+its industry, brand identity, audit results, business goals,
+and visual intelligence report.
+The engine shall never randomly assign themes.
+Every recommendation must be rule-driven and explainable.
+
+
+--- Page 122 ---
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an intelligent design theme that improves the
+website while preserving the business identity.
+The selected theme becomes the design foundation for all
+future prototype generation.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Business
+Analyze Industry
+Analyze Brand
+Analyze Audience
+Analyze Visual Report
+Analyze Audit Report
+Select Theme
+Generate Theme Tokens
+Generate Theme Rules
+Generate Theme Report
+=================================================================
+INPUT
+=================================================================
+Business Category
+Business Name
+Audit Report
+
+
+--- Page 123 ---
+DOM Report
+Visual Intelligence Report
+Lead Score
+Business Profile
+=================================================================
+OUTPUT
+=================================================================
+Selected Theme
+Theme Profile
+Color Tokens
+Typography Tokens
+Spacing Tokens
+Elevation Tokens
+Border Radius Tokens
+Animation Profile
+Theme Recommendation Report
+=================================================================
+THEME PIPELINE
+=================================================================
+Business Category
+↓
+Business Analysis
+↓
+Industry Mapping
+
+
+--- Page 124 ---
+↓
+Brand Personality
+↓
+Design Style Selection
+↓
+Theme Matching
+↓
+Token Generation
+↓
+Accessibility Validation
+↓
+Theme Score
+↓
+Theme Report
+=================================================================
+SUPPORTED INDUSTRIES
+=================================================================
+Book Publisher
+Educational Institute
+Hospital
+Clinic
+Restaurant
+Hotel
+
+
+--- Page 125 ---
+Travel Agency
+Law Firm
+Real Estate
+Architecture
+Interior Design
+Corporate
+Consulting
+Finance
+Insurance
+Technology
+Software
+Marketing
+NGO
+Government
+Manufacturing
+Portfolio
+Creative Agency
+Photography
+Jewelry
+Fashion
+E-Commerce
+Automobile
+
+
+--- Page 126 ---
+Healthcare
+Fitness
+=================================================================
+THEME CATEGORIES
+=================================================================
+Corporate Professional
+Modern Business
+Minimal
+Premium Luxury
+Medical
+Education
+Creative Studio
+Technology
+Editorial
+Elegant
+Traditional
+Dark Professional
+Glass Interface
+Bold Marketing
+Startup
+Industrial
+Classic
+=================================================================
+THEME PERSONALITY
+
+
+--- Page 127 ---
+=================================================================
+Professional
+Premium
+Elegant
+Friendly
+Creative
+Minimal
+Luxury
+Modern
+Traditional
+Bold
+Innovative
+Reliable
+High Trust
+=================================================================
+COLOR TOKEN GENERATION
+=================================================================
+Generate
+Primary Color
+Secondary Color
+Accent Color
+Background Color
+Surface Color
+
+
+--- Page 128 ---
+Primary Text
+Secondary Text
+Border Color
+Success
+Warning
+Error
+Info
+=================================================================
+COLOR RULES
+=================================================================
+Respect
+Brand Identity
+Industry Standards
+Accessibility
+Contrast Ratio
+Color Harmony
+Visual Consistency
+=================================================================
+TYPOGRAPHY TOKENS
+=================================================================
+Generate
+Heading Font
+Body Font
+Button Font
+
+
+--- Page 129 ---
+Navigation Font
+Caption Font
+Display Font
+Font Scale
+Font Weight
+Letter Spacing
+Line Height
+=================================================================
+SPACING TOKENS
+=================================================================
+Generate
+Base Unit
+Container Width
+Section Padding
+Component Padding
+Grid Gap
+Card Gap
+Button Padding
+Input Padding
+=================================================================
+BORDER SYSTEM
+=================================================================
+Generate
+Border Radius
+
+
+--- Page 130 ---
+Border Width
+Card Radius
+Button Radius
+Input Radius
+Image Radius
+=================================================================
+SHADOW SYSTEM
+=================================================================
+Generate
+Small
+Medium
+Large
+Floating
+Modal
+Dropdown
+Card
+=================================================================
+ELEVATION SYSTEM
+=================================================================
+Define
+Layer 0
+Layer 1
+Layer 2
+Layer 3
+
+
+--- Page 131 ---
+Layer 4
+Layer 5
+=================================================================
+ICON STYLE
+=================================================================
+Generate
+Filled
+Outlined
+Rounded
+Sharp
+Minimal
+Professional
+=================================================================
+BUTTON STYLE
+=================================================================
+Generate
+Primary Button
+Secondary Button
+Outline Button
+Ghost Button
+Text Button
+CTA Button
+=================================================================
+FORM STYLE
+=================================================================
+
+
+--- Page 132 ---
+Generate
+Input Style
+Textarea
+Select
+Checkbox
+Radio
+Validation Style
+Focus Style
+=================================================================
+CARD STYLE
+=================================================================
+Generate
+Service Card
+Feature Card
+Pricing Card
+Product Card
+Team Card
+Testimonial Card
+Blog Card
+Portfolio Card
+=================================================================
+IMAGE STYLE
+=================================================================
+Recommend
+
+
+--- Page 133 ---
+Photography
+Illustration
+Minimal Graphics
+Icons
+Mixed
+Large Hero Images
+Product Images
+=================================================================
+ANIMATION PROFILE
+=================================================================
+Generate
+Transition Speed
+Hover Animation
+Button Animation
+Card Animation
+Scroll Animation
+Loading Animation
+Animation Intensity
+=================================================================
+RESPONSIVE TOKENS
+=================================================================
+Desktop
+Laptop
+Tablet
+
+
+--- Page 134 ---
+Mobile
+Small Mobile
+=================================================================
+THEME SCORING
+=================================================================
+Generate
+Brand Match Score
+Industry Match Score
+Accessibility Score
+Consistency Score
+Premium Score
+Overall Theme Score
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+theme_engine.py
+theme_selector.py
+theme_library.py
+theme_tokens.py
+color_generator.py
+typography_generator.py
+spacing_generator.py
+border_generator.py
+
+
+--- Page 135 ---
+shadow_generator.py
+animation_generator.py
+theme_validator.py
+theme_report.py
+theme_models.py
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+themes/
+tokens/
+presets/
+reports/
+logs/
+=================================================================
+DATABASE
+=================================================================
+Table
+prototype_themes
+Fields
+id
+job_id
+theme_name
+
+
+--- Page 136 ---
+industry
+personality
+primary_color
+secondary_color
+accent_color
+heading_font
+body_font
+theme_score
+created_at
+=================================================================
+CONFIGURATION
+=================================================================
+Theme Library
+Industry Mapping
+Accessibility Threshold
+Animation Level
+Dark Mode
+Light Mode
+Premium Themes
+Custom Themes
+=================================================================
+LOGGING
+=================================================================
+Log
+
+
+--- Page 137 ---
+Business Analysis
+Industry Detection
+Theme Selection
+Token Generation
+Validation
+Accessibility Check
+Theme Score
+Report Generation
+=================================================================
+ERROR HANDLING
+=================================================================
+Theme Not Found
+Invalid Industry
+Missing Tokens
+Accessibility Failure
+Configuration Error
+Validation Failure
+Retry Logic
+Graceful Recovery
+=================================================================
+PERFORMANCE REQUIREMENTS
+=================================================================
+Fast Theme Selection
+Token Caching
+
+
+--- Page 138 ---
+Reusable Theme Profiles
+Low Memory Usage
+Deterministic Output
+=================================================================
+SECURITY RULES
+=================================================================
+Never generate copyrighted brand themes.
+Never clone competitor branding.
+Never copy proprietary visual identities.
+Generate original design systems only.
+=================================================================
+UNIT TESTS
+=================================================================
+Theme Selection
+Industry Mapping
+Token Generation
+Typography
+Spacing
+Colors
+Animation
+Validation
+Theme Score
+=================================================================
+INTEGRATION TESTS
+=================================================================
+

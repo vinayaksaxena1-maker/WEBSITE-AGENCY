@@ -1,0 +1,598 @@
+
+--- Page 194 ---
+Unhandled Exception
+Database Failure
+=================================================================
+AUDIT REPORT
+=================================================================
+Breakpoint Profiles
+Supported Devices
+Responsive Score
+Validation Results
+Execution Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+Responsive Intelligence Engine becomes READ ONLY.
+No architectural modifications allowed without approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate HTML.
+Do NOT generate CSS.
+Do NOT generate Preview.
+
+
+--- Page 195 ---
+Do NOT continue to Phase 7.9.
+Wait for:
+PART 2B-2C
+PHASE 7.9
+HTML GENERATION ENGINE
+=================================================================
+END OF PHASE 7.8
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.9
+### HTML GENERATION ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the HTML Generation Engine.
+Do NOT implement Preview Engine.
+Do NOT implement Quality Intelligence.
+Do NOT implement Export Engine.
+Do NOT continue to Phase 7.10.
+The HTML Generation Engine is responsible for converting the
+approved Responsive Blueprint into a production-quality HTML
+prototype.
+This engine must generate clean, semantic, maintainable,
+responsive and accessible code.
+The generated output is intended for demonstration purposes.
+It must never clone an existing website.
+
+
+--- Page 196 ---
+It must generate an original implementation using the approved
+layout, components and theme.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate a complete responsive website prototype from structured
+design intelligence.
+The engine shall produce:
+• Semantic HTML5
+• Tailwind CSS
+• Minimal JavaScript
+• Responsive Layout
+• Accessible Components
+• SEO Friendly Structure
+• Production Quality Code
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Load Blueprint
+Load Components
+Load Theme Tokens
+Load Responsive Rules
+Generate HTML
+Generate Tailwind Classes
+Generate Accessibility Markup
+
+
+--- Page 197 ---
+Generate Metadata
+Optimize Output
+Validate HTML
+Generate Build Report
+=================================================================
+INPUT
+=================================================================
+Responsive Blueprint
+Layout Blueprint
+Component Tree
+Theme Tokens
+Typography Tokens
+Spacing Tokens
+Color Tokens
+Business Profile
+Business Category
+=================================================================
+OUTPUT
+=================================================================
+index.html
+assets/
+components/
+images/
+icons/
+
+
+--- Page 198 ---
+fonts/
+styles/
+scripts/
+prototype.json
+generation_report.json
+=================================================================
+GENERATION PIPELINE
+=================================================================
+Responsive Blueprint
+↓
+Layout Blueprint
+↓
+Component Tree
+↓
+Theme Tokens
+↓
+Tailwind Generator
+↓
+Semantic HTML Generator
+↓
+Accessibility Generator
+↓
+SEO Generator
+
+
+--- Page 199 ---
+↓
+Optimization
+↓
+Validation
+↓
+Prototype Build
+↓
+Generation Report
+=================================================================
+PROJECT STRUCTURE
+=================================================================
+prototype/
+index.html
+assets/
+css/
+js/
+images/
+icons/
+fonts/
+components/
+metadata/
+reports/
+=================================================================
+HTML STANDARDS
+
+
+--- Page 200 ---
+=================================================================
+Generate
+DOCTYPE
+HTML5
+Semantic Tags
+Clean Structure
+Readable Indentation
+Reusable Sections
+Minimal Nesting
+Logical Ordering
+=================================================================
+SEMANTIC TAGS
+=================================================================
+Use
+header
+nav
+main
+section
+article
+aside
+footer
+figure
+picture
+
+
+--- Page 201 ---
+form
+button
+dialog
+details
+summary
+=================================================================
+COMPONENT RENDERING
+=================================================================
+Render
+Header
+Navigation
+Hero
+About
+Services
+Features
+Products
+Portfolio
+Testimonials
+Statistics
+Pricing
+FAQ
+Blog
+Gallery
+
+
+--- Page 202 ---
+Team
+Contact
+Footer
+=================================================================
+TAILWIND CSS RULES
+=================================================================
+Generate
+Utility Classes
+Responsive Classes
+Spacing Utilities
+Grid Utilities
+Flex Utilities
+Typography Utilities
+Color Utilities
+Animation Utilities
+State Utilities
+Avoid inline styles.
+Avoid duplicated utilities.
+=================================================================
+DESIGN TOKEN INJECTION
+=================================================================
+Inject
+Primary Color
+Secondary Color
+
+
+--- Page 203 ---
+Accent Color
+Typography Scale
+Spacing Scale
+Border Radius
+Shadow Tokens
+Animation Tokens
+Container Width
+=================================================================
+TYPOGRAPHY
+=================================================================
+Generate
+Heading Hierarchy
+Paragraph Styles
+Lists
+Captions
+Navigation
+Buttons
+Labels
+=================================================================
+COLOR SYSTEM
+=================================================================
+Apply
+Primary
+Secondary
+
+
+--- Page 204 ---
+Accent
+Surface
+Background
+Text
+Success
+Warning
+Error
+=================================================================
+GRID SYSTEM
+=================================================================
+Generate
+Responsive Grid
+Flex Layout
+Container
+Columns
+Rows
+Auto Layout
+Nested Grid
+=================================================================
+IMAGE HANDLING
+=================================================================
+Generate
+Responsive Images
+Alt Text
+
+
+--- Page 205 ---
+Lazy Loading
+Object Fit
+Image Placeholder
+Fallback Image
+=================================================================
+ICON HANDLING
+=================================================================
+Generate
+Accessible Icons
+Consistent Sizing
+SVG Preferred
+Decorative Icons
+Interactive Icons
+=================================================================
+FORMS
+=================================================================
+Generate
+Contact Form
+Input Fields
+Textarea
+Dropdown
+Checkbox
+Radio
+Validation Message
+
+
+--- Page 206 ---
+Submit Button
+=================================================================
+BUTTONS
+=================================================================
+Generate
+Primary
+Secondary
+Outline
+Ghost
+CTA
+Icon Button
+=================================================================
+ACCESSIBILITY
+=================================================================
+Generate
+ARIA Labels
+ARIA Roles
+Landmarks
+Keyboard Navigation
+Focus States
+Accessible Forms
+Screen Reader Support
+Alt Text
+Heading Hierarchy
+
+
+--- Page 207 ---
+=================================================================
+SEO
+=================================================================
+Generate
+Title
+Meta Description
+Canonical URL
+Open Graph
+Twitter Cards
+Structured Heading
+Semantic HTML
+Schema Placeholder
+=================================================================
+SCHEMA SUPPORT
+=================================================================
+Support
+Organization
+Local Business
+Website
+Breadcrumb
+Article
+FAQ
+Product
+Service
+
+
+--- Page 208 ---
+=================================================================
+JAVASCRIPT RULES
+=================================================================
+Generate only when required.
+Allowed
+Navigation Toggle
+Accordion
+Tabs
+Modal
+Form Validation
+Theme Toggle
+Animation Trigger
+Avoid unnecessary JavaScript.
+=================================================================
+PERFORMANCE OPTIMIZATION
+=================================================================
+Minimize DOM Depth
+Remove Duplicate Elements
+Lazy Load Images
+Optimize Assets
+Reduce Layout Shift
+Generate Clean HTML
+=================================================================
+CODE QUALITY
+=================================================================
+
+
+--- Page 209 ---
+Readable
+Modular
+Reusable
+Consistent
+Documented
+Maintainable
+Production Ready
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+html_generator.py
+tailwind_generator.py
+component_renderer.py
+token_injector.py
+accessibility_generator.py
+seo_generator.py
+schema_generator.py
+asset_manager.py
+build_optimizer.py
+html_validator.py
+build_report.py
+generation_models.py
+
+
+--- Page 210 ---
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+html/
+assets/
+css/
+js/
+components/
+icons/
+images/
+metadata/
+reports/
+logs/
+=================================================================
+DATABASE
+=================================================================
+Table
+prototype_builds
+Fields
+id
+job_id
+build_version
+
+
+--- Page 211 ---
+component_count
+html_size
+asset_count
+seo_score
+accessibility_score
+validation_status
+generation_time
+created_at
+=================================================================
+CONFIGURATION
+=================================================================
+HTML Template
+Tailwind Version
+Theme Tokens
+Asset Paths
+SEO Defaults
+Schema Templates
+Compression Level
+Output Directory
+=================================================================
+LOGGING
+=================================================================
+Log
+Blueprint Loaded
+
+
+--- Page 212 ---
+Components Rendered
+HTML Generated
+Tailwind Generated
+SEO Generated
+Accessibility Generated
+Validation Completed
+Prototype Built
+Report Generated
+=================================================================
+ERROR HANDLING
+=================================================================
+Template Missing
+Component Failure
+Token Failure
+Asset Failure
+Validation Failure
+Build Failure
+Retry Logic
+Graceful Recovery
+=================================================================
+PERFORMANCE REQUIREMENTS
+=================================================================
+Fast Build
+Reusable Templates
+
+
+--- Page 213 ---
+Minimal Memory Usage
+Deterministic Output
+Parallel Rendering Supported
+=================================================================
+SECURITY RULES
+=================================================================
+Never inject external scripts.
+Never embed malicious code.
+Never expose API keys.
+Never generate executable backend logic.
+Generate frontend prototype only.
+=================================================================
+UNIT TESTS
+=================================================================
+HTML Generator
+Tailwind Generator
+Component Renderer
+Accessibility Generator
+SEO Generator
+Asset Manager
+Validator
+Build Report
+=================================================================
+INTEGRATION TESTS
+=================================================================
+
+
+--- Page 214 ---
+Responsive Engine
+Layout Engine
+Component Engine
+Theme Engine
+Database
+Filesystem
+Logging
+Pipeline
+=================================================================
+PASS CONDITIONS
+=================================================================
+Semantic HTML Generated
+Tailwind CSS Generated
+Responsive Structure Generated
+Accessibility Passed
+SEO Metadata Generated
+Validation Passed
+Database Updated
+Logs Written
+All Tests Passed
+=================================================================
+FAIL CONDITIONS
+=================================================================
+HTML Generation Failed
+
+
+--- Page 215 ---
+Validation Failed
+Asset Failure
+Accessibility Failure
+Unhandled Exception
+Database Failure
+=================================================================
+AUDIT REPORT
+=================================================================
+HTML Files Generated
+Components Rendered
+Assets Generated
+SEO Score
+Accessibility Score
+Validation Result
+Build Size
+Execution Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+HTML Generation Engine becomes READ ONLY.
+

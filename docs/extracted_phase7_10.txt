@@ -1,0 +1,577 @@
+
+--- Page 215 ---
+Validation Failed
+Asset Failure
+Accessibility Failure
+Unhandled Exception
+Database Failure
+=================================================================
+AUDIT REPORT
+=================================================================
+HTML Files Generated
+Components Rendered
+Assets Generated
+SEO Score
+Accessibility Score
+Validation Result
+Build Size
+Execution Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+HTML Generation Engine becomes READ ONLY.
+
+
+--- Page 216 ---
+No modifications allowed without architecture approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate Preview.
+Do NOT generate Quality Intelligence.
+Do NOT generate Export Packages.
+Do NOT continue to Phase 7.10.
+Wait for:
+PART 2B-2C
+PHASE 7.10
+PREVIEW ENGINE
+=================================================================
+END OF PHASE 7.9
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.10
+### PREVIEW ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Preview Engine.
+Do NOT implement Quality Intelligence.
+Do NOT implement Prototype Export Engine.
+Do NOT continue to Phase 7.11.
+The Preview Engine is responsible for transforming the generated
+
+
+--- Page 217 ---
+HTML prototype into a presentation-ready interactive preview.
+This engine is the first visual output that a client will see.
+The objective is to present the generated prototype in the most
+professional, responsive and reliable manner.
+The Preview Engine shall never modify HTML.
+It only renders and validates the generated prototype.
+=================================================================
+OBJECTIVE
+=================================================================
+Generate an enterprise-quality preview environment capable of
+displaying responsive prototypes across multiple devices.
+Generate presentation assets that can be used for
+Client Review
+Internal QA
+Sales Demonstration
+Approval Workflow
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Load Prototype
+Launch Preview Server
+Render Prototype
+Capture Preview
+Generate Device Views
+Generate Before/After Comparison
+
+
+--- Page 218 ---
+Generate Preview Metadata
+Validate Rendering
+Generate Preview Report
+=================================================================
+INPUT
+=================================================================
+Generated HTML
+Assets
+CSS
+JavaScript
+Prototype Metadata
+Responsive Blueprint
+=================================================================
+OUTPUT
+=================================================================
+Live Preview
+Desktop Preview
+Laptop Preview
+Tablet Preview
+Mobile Preview
+Before Image
+After Image
+Comparison Report
+Preview Metadata
+
+
+--- Page 219 ---
+=================================================================
+PREVIEW PIPELINE
+=================================================================
+Generated Prototype
+↓
+Local Preview Server
+↓
+Browser Rendering
+↓
+Desktop Preview
+↓
+Laptop Preview
+↓
+Tablet Preview
+↓
+Mobile Preview
+↓
+Visual Validation
+↓
+Comparison Generation
+↓
+Preview Report
+=================================================================
+SUPPORTED DEVICES
+
+
+--- Page 220 ---
+=================================================================
+Desktop
+1920×1080
+----------------------------------
+Laptop
+1440×900
+----------------------------------
+Tablet Landscape
+1024×768
+----------------------------------
+Tablet Portrait
+768×1024
+----------------------------------
+Large Mobile
+430×932
+----------------------------------
+Standard Mobile
+390×844
+----------------------------------
+Small Mobile
+360×640
+=================================================================
+PREVIEW SERVER
+
+
+--- Page 221 ---
+=================================================================
+Generate
+Temporary Local Server
+Asset Loader
+Routing
+Static Resources
+Preview Session
+Session Cleanup
+=================================================================
+RENDER VALIDATION
+=================================================================
+Validate
+Page Loaded
+Images Loaded
+Fonts Loaded
+Icons Loaded
+Animations Loaded
+No Rendering Errors
+=================================================================
+VISUAL VALIDATION
+=================================================================
+Detect
+Broken Layout
+Broken Images
+
+
+--- Page 222 ---
+Missing Fonts
+Missing Icons
+Overflow
+Hidden Elements
+Unexpected Scroll
+Alignment Issues
+=================================================================
+MULTI DEVICE PREVIEW
+=================================================================
+Generate
+Desktop View
+Laptop View
+Tablet View
+Mobile View
+Each preview must include
+Resolution
+Aspect Ratio
+Timestamp
+=================================================================
+BEFORE / AFTER COMPARISON
+=================================================================
+Generate
+Original Website Screenshot
+↓
+
+
+--- Page 223 ---
+Generated Prototype
+↓
+Side by Side Comparison
+↓
+Overlay Comparison
+↓
+Improvement Summary
+=================================================================
+COMPARISON METRICS
+=================================================================
+Measure
+Layout Improvement
+Visual Hierarchy
+Typography
+Spacing
+Brand Quality
+Accessibility
+CTA Visibility
+Navigation
+=================================================================
+INTERACTIVE PREVIEW
+=================================================================
+Support
+Navigation
+
+
+--- Page 224 ---
+Buttons
+Forms
+Links
+Accordion
+Tabs
+Hover States
+Scrolling
+=================================================================
+PREVIEW METADATA
+=================================================================
+Generate
+Preview Version
+Generation Time
+Resolution
+Viewport
+Build Version
+Theme
+Layout Version
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+preview_engine.py
+preview_server.py
+
+
+--- Page 225 ---
+render_validator.py
+device_renderer.py
+comparison_engine.py
+preview_capture.py
+preview_metadata.py
+preview_report.py
+preview_models.py
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+preview/
+desktop/
+laptop/
+tablet/
+mobile/
+comparison/
+reports/
+logs/
+=================================================================
+DATABASE
+=================================================================
+Table
+
+
+--- Page 226 ---
+prototype_previews
+Fields
+id
+job_id
+preview_version
+desktop_image
+laptop_image
+tablet_image
+mobile_image
+comparison_image
+preview_score
+status
+created_at
+=================================================================
+CONFIGURATION
+=================================================================
+Preview Port
+Default Browser
+Supported Devices
+Image Format
+Screenshot Quality
+Comparison Mode
+Timeout
+
+
+--- Page 227 ---
+Output Directory
+=================================================================
+LOGGING
+=================================================================
+Log
+Preview Started
+Server Started
+Render Complete
+Desktop Generated
+Laptop Generated
+Tablet Generated
+Mobile Generated
+Comparison Generated
+Preview Report Generated
+=================================================================
+ERROR HANDLING
+=================================================================
+Server Failure
+Render Failure
+Asset Missing
+Screenshot Failure
+Browser Failure
+Timeout
+Comparison Failure
+
+
+--- Page 228 ---
+Retry Logic
+Graceful Recovery
+=================================================================
+PERFORMANCE REQUIREMENTS
+=================================================================
+Fast Preview Rendering
+Low Memory Usage
+Reusable Preview Sessions
+Parallel Device Rendering
+Optimized Asset Loading
+=================================================================
+SECURITY RULES
+=================================================================
+Never expose local file paths.
+Never expose API credentials.
+Never expose development configuration.
+Preview must execute inside an isolated environment.
+=================================================================
+UNIT TESTS
+=================================================================
+Preview Server
+Rendering
+Screenshot Capture
+Comparison Engine
+Metadata
+
+
+--- Page 229 ---
+Validation
+=================================================================
+INTEGRATION TESTS
+=================================================================
+HTML Generation Engine
+Responsive Engine
+Filesystem
+Database
+Logging
+Pipeline
+=================================================================
+PASS CONDITIONS
+=================================================================
+Prototype Rendered Successfully
+Desktop Preview Generated
+Laptop Preview Generated
+Tablet Preview Generated
+Mobile Preview Generated
+Comparison Generated
+Metadata Generated
+Database Updated
+Logs Written
+All Tests Passed
+=================================================================
+FAIL CONDITIONS
+
+
+--- Page 230 ---
+=================================================================
+Preview Failure
+Rendering Failure
+Asset Failure
+Comparison Failure
+Unhandled Exception
+Database Failure
+=================================================================
+AUDIT REPORT
+=================================================================
+Preview Generated
+Devices Tested
+Screenshots Generated
+Comparison Generated
+Rendering Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+Preview Engine becomes READ ONLY.
+No modifications allowed without architecture approval.
+
+
+--- Page 231 ---
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT implement Quality Intelligence.
+Do NOT implement Export Engine.
+Do NOT continue to Phase 7.11.
+Wait for:
+PART 2B-2C
+PHASE 7.11
+QUALITY INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.10
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.11
+### QUALITY INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Quality Intelligence Engine.
+Do NOT implement Prototype Export Engine.
+Do NOT continue to Phase 7.12.
+The Quality Intelligence Engine is responsible for performing
+the final enterprise quality inspection of every generated
+prototype before it is approved for presentation.
+This engine is the final automated reviewer of the complete
+Prototype Intelligence Engine pipeline.
+
+
+--- Page 232 ---
+The engine never modifies the prototype.
+It only validates, measures, scores and certifies quality.
+=================================================================
+OBJECTIVE
+=================================================================
+Evaluate every generated prototype against enterprise
+quality standards.
+Generate measurable quality scores.
+Identify defects.
+Generate recommendations.
+Determine whether the prototype is ready for client presentation.
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Validate HTML
+Validate Responsive Layout
+Validate Accessibility
+Validate Performance
+Validate SEO
+Validate Components
+Validate Theme
+Validate Typography
+Validate Images
+Validate UX
+Generate Quality Scores
+
+
+--- Page 233 ---
+Generate Certification Report
+=================================================================
+INPUT
+=================================================================
+Generated Prototype
+Responsive Blueprint
+Layout Blueprint
+Theme Profile
+Component Tree
+Visual Report
+DOM Report
+Preview Report
+Audit Report
+=================================================================
+OUTPUT
+=================================================================
+Quality Report
+Quality Scores
+Accessibility Report
+Performance Report
+SEO Report
+UX Report
+Issue List
+Recommendations
+
+
+--- Page 234 ---
+Certification Result
+=================================================================
+QUALITY PIPELINE
+=================================================================
+Prototype
+↓
+HTML Validation
+↓
+Accessibility Validation
+↓
+Responsive Validation
+↓
+Performance Validation
+↓
+SEO Validation
+↓
+Visual Validation
+↓
+UX Validation
+↓
+Component Validation
+↓
+Scoring Engine
+
+
+--- Page 235 ---
+↓
+Certification Report
+=================================================================
+QUALITY DIMENSIONS
+=================================================================
+HTML Quality
+CSS Quality
+JavaScript Quality
+Accessibility
+SEO
+Performance
+Responsive Design
+Visual Design
+Typography
+Color System
+Spacing
+Navigation
+Content Structure
+Brand Consistency
+Code Quality
+Maintainability
+=================================================================
+HTML VALIDATION
+=================================================================
+

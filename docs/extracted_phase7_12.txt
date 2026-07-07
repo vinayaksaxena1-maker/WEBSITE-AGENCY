@@ -1,0 +1,423 @@
+
+--- Page 248 ---
+​Critical Issues​
+​Warnings​
+​Recommendations​
+​Execution Time​
+​PASS / FAIL​
+​=================================================================​
+​LOCK CONDITIONS​
+​=================================================================​
+​After PASS​
+​Quality Intelligence Engine becomes READ ONLY.​
+​No modifications allowed without architecture approval.​
+​=================================================================​
+​GLOBAL RESTRICTIONS​
+​=================================================================​
+​Do NOT implement Export Engine.​
+​Do NOT continue to Phase 7.12.​
+​Wait for:​
+​PART 2B-2C​
+​PHASE 7.12​
+​PROTOTYPE EXPORT ENGINE​
+​=================================================================​
+​END OF PHASE 7.11​
+​# AI WEBSITE UPGRADE AGENCY​
+​## ENTERPRISE DEVELOPMENT KIT (EDK)​
+​### MASTER SYSTEM PROMPT​
+​### PART 2B-2C​
+​### PHASE 7.12​
+
+--- Page 249 ---
+​### PROTOTYPE EXPORT ENGINE​
+​=================================================================​
+​MISSION​
+​=================================================================​
+​Implement only the Prototype Export Engine.​
+​Do NOT implement Final Certification.​
+​Do NOT continue to Phase 7.13.​
+​The Prototype Export Engine is responsible for packaging every​
+​approved prototype into standardized client-ready deliverables.​
+​The engine shall export only prototypes that have successfully​
+​passed the Quality Intelligence Engine.​
+​No export shall be allowed without certification approval.​
+​=================================================================​
+​OBJECTIVE​
+​=================================================================​
+​Generate professional delivery packages that can be shared with​
+​clients, internal teams and future development workflows.​
+​The export process must be deterministic, version-controlled and​
+​repeatable.​
+​=================================================================​
+​PRIMARY RESPONSIBILITIES​
+​=================================================================​
+​Validate Certification​
+​Collect Build Assets​
+​Generate Export Package​
+​Generate Static Website​
+​Generate ZIP Package​
+
+--- Page 250 ---
+​Generate Presentation Assets​
+​Generate Screenshots​
+​Generate Build Manifest​
+​Generate Checksums​
+​Generate Export Report​
+​=================================================================​
+​INPUT​
+​=================================================================​
+​Certified Prototype​
+​Generated HTML​
+​CSS Assets​
+​JavaScript Assets​
+​Images​
+​Icons​
+​Fonts​
+​Metadata​
+​Quality Report​
+​Preview Report​
+​=================================================================​
+​OUTPUT​
+​=================================================================​
+​Static Website​
+​ZIP Package​
+​Preview Images​
+
+--- Page 251 ---
+​Presentation Assets​
+​Build Manifest​
+​Integrity Report​
+​Export Report​
+​Version Metadata​
+​=================================================================​
+​EXPORT PIPELINE​
+​=================================================================​
+​Certified Prototype​
+​↓​
+​Export Validation​
+​↓​
+​Asset Collection​
+​↓​
+​Build Packaging​
+​↓​
+​Manifest Generation​
+​↓​
+​Integrity Verification​
+​↓​
+​Export Generation​
+​↓​
+​Export Validation​
+
+--- Page 252 ---
+​↓​
+​Export Report​
+​=================================================================​
+​EXPORT FORMATS​
+​=================================================================​
+​Static HTML Package​
+​ZIP Archive​
+​Preview Images​
+​Build Manifest​
+​JSON Metadata​
+​Project Structure​
+​Export Report​
+​=================================================================​
+​STATIC WEBSITE​
+​=================================================================​
+​Generate​
+​index.html​
+​Assets​
+​Images​
+​Icons​
+​Fonts​
+​CSS​
+​JavaScript​
+​Metadata​
+
+--- Page 253 ---
+​404 Page (Optional)​
+​=================================================================​
+​ZIP PACKAGE​
+​=================================================================​
+​Include​
+​HTML​
+​Assets​
+​Images​
+​Fonts​
+​Icons​
+​CSS​
+​JavaScript​
+​Manifest​
+​Metadata​
+​License Placeholder​
+​Readme​
+​=================================================================​
+​PREVIEW EXPORTS​
+​=================================================================​
+​Generate​
+​Desktop PNG​
+​Laptop PNG​
+​Tablet PNG​
+​Mobile PNG​
+
+--- Page 254 ---
+​Comparison Image​
+​Hero Screenshot​
+​Landing Screenshot​
+​=================================================================​
+​PRESENTATION ASSETS​
+​=================================================================​
+​Generate​
+​Client Preview Images​
+​Before / After Images​
+​Summary Images​
+​Prototype Overview​
+​Improvement Highlights​
+​=================================================================​
+​MANIFEST​
+​=================================================================​
+​Generate​
+​Build Version​
+​Project Name​
+​Prototype Version​
+​Generated Time​
+​Theme​
+​Layout​
+​Components​
+​Assets​
+
+--- Page 255 ---
+​Checksums​
+​Generator Version​
+​=================================================================​
+​VERSIONING​
+​=================================================================​
+​Generate​
+​Major Version​
+​Minor Version​
+​Patch Version​
+​Build Number​
+​Revision Number​
+​Export Timestamp​
+​=================================================================​
+​INTEGRITY VERIFICATION​
+​=================================================================​
+​Verify​
+​Assets Present​
+​HTML Present​
+​CSS Present​
+​JavaScript Present​
+​Manifest Present​
+​Metadata Present​
+​Preview Images Present​
+​=================================================================​
+​CHECKSUM​
+
+--- Page 256 ---
+​=================================================================​
+​Generate​
+​Package Checksum​
+​Asset Checksums​
+​Manifest Checksum​
+​Integrity Signature​
+​=================================================================​
+​EXPORT METADATA​
+​=================================================================​
+​Generate​
+​Export ID​
+​Job ID​
+​Client ID​
+​Business Category​
+​Theme​
+​Build Version​
+​Generation Date​
+​Generator Version​
+​=================================================================​
+​FILES TO CREATE​
+​=================================================================​
+​agents/prototype/​
+​export_engine.py​
+​export_validator.py​
+
+--- Page 257 ---
+​package_builder.py​
+​manifest_generator.py​
+​version_manager.py​
+​checksum_generator.py​
+​asset_packager.py​
+​integrity_checker.py​
+​export_report.py​
+​export_models.py​
+​tests/​
+​=================================================================​
+​DIRECTORY STRUCTURE​
+​=================================================================​
+​prototype/​
+​exports/​
+​packages/​
+​static/​
+​images/​
+​manifest/​
+​reports/​
+​logs/​
+​=================================================================​
+​DATABASE​
+​=================================================================​
+​Table​
+
+--- Page 258 ---
+​prototype_exports​
+​Fields​
+​id​
+​job_id​
+​export_version​
+​package_name​
+​package_size​
+​checksum​
+​export_status​
+​validation_status​
+​generated_at​
+​=================================================================​
+​CONFIGURATION​
+​=================================================================​
+​Export Directory​
+​Package Format​
+​Compression Level​
+​Version Strategy​
+​Manifest Version​
+​Checksum Algorithm​
+​Output Naming​
+​Retention Policy​
+​=================================================================​
+​LOGGING​
+
+--- Page 259 ---
+​=================================================================​
+​Log​
+​Export Started​
+​Validation Completed​
+​Assets Collected​
+​Manifest Generated​
+​Checksum Generated​
+​Package Created​
+​Integrity Verified​
+​Export Completed​
+​Report Generated​
+​=================================================================​
+​ERROR HANDLING​
+​=================================================================​
+​Missing Assets​
+​Packaging Failure​
+​Manifest Failure​
+​Checksum Failure​
+​Integrity Failure​
+​Filesystem Error​
+​Database Failure​
+​Retry Logic​
+​Graceful Recovery​
+
+--- Page 260 ---
+​=================================================================​
+​PERFORMANCE REQUIREMENTS​
+​=================================================================​
+​Fast Packaging​
+​Efficient Compression​
+​Minimal Memory Usage​
+​Reusable Export Pipeline​
+​Parallel Asset Processing​
+​=================================================================​
+​SECURITY RULES​
+​=================================================================​
+​Never include API Keys.​
+​Never include Environment Files.​
+​Never include Secrets.​
+​Never include Database Credentials.​
+​Never include Internal Logs.​
+​Never include Development Configuration.​
+​=================================================================​
+​PACKAGE STRUCTURE​
+​=================================================================​
+​prototype_export/​
+​index.html​
+​assets/​
+​css/​
+​js/​
+
+--- Page 261 ---
+​images/​
+​icons/​
+​fonts/​
+​metadata/​
+​manifest.json​
+​README.md​
+​LICENSE.txt​
+​reports/​
+​=================================================================​
+​UNIT TESTS​
+​=================================================================​
+​Package Builder​
+​Manifest Generator​
+​Checksum Generator​
+​Integrity Checker​
+​Version Manager​
+​Export Validator​
+​Report Generator​
+​=================================================================​
+​INTEGRATION TESTS​
+​=================================================================​
+​HTML Engine​
+​Preview Engine​
+​Quality Engine​
+
+--- Page 262 ---
+​Filesystem​
+​Database​
+​Logging​
+​Pipeline​
+​=================================================================​
+​PASS CONDITIONS​
+​=================================================================​
+​Package Generated​
+​Static Website Generated​
+​Manifest Generated​
+​Checksums Generated​
+​Integrity Verified​
+​Reports Generated​
+​Database Updated​
+​Logs Written​
+​All Tests Passed​
+​=================================================================​
+​FAIL CONDITIONS​
+​=================================================================​
+​Export Failure​
+​Packaging Failure​
+​Integrity Failure​
+​Manifest Failure​
+​Database Failure​
+
+--- Page 263 ---
+​Unhandled Exception​
+​=================================================================​
+​AUDIT REPORT​
+​=================================================================​
+​Export Version​
+​Package Size​
+​Files Included​
+​Assets Packaged​
+​Checksum​
+​Integrity Status​
+​Execution Time​
+​Warnings​
+​Errors​
+​PASS / FAIL​
+​=================================================================​
+​LOCK CONDITIONS​
+​=================================================================​
+​After PASS​
+​Prototype Export Engine becomes READ ONLY.​
+​No modifications allowed without architecture approval.​
+​=================================================================​
+​GLOBAL RESTRICTIONS​
+​=================================================================​
+​Do NOT continue to Phase 8.​
+​Do NOT modify previous PIE modules.​

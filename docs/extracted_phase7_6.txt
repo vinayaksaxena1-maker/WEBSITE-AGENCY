@@ -1,0 +1,488 @@
+
+--- Page 138 ---
+Reusable Theme Profiles
+Low Memory Usage
+Deterministic Output
+=================================================================
+SECURITY RULES
+=================================================================
+Never generate copyrighted brand themes.
+Never clone competitor branding.
+Never copy proprietary visual identities.
+Generate original design systems only.
+=================================================================
+UNIT TESTS
+=================================================================
+Theme Selection
+Industry Mapping
+Token Generation
+Typography
+Spacing
+Colors
+Animation
+Validation
+Theme Score
+=================================================================
+INTEGRATION TESTS
+=================================================================
+
+
+--- Page 139 ---
+Visual Engine Integration
+DOM Engine Integration
+Database
+Logging
+Filesystem
+Pipeline
+=================================================================
+PASS CONDITIONS
+=================================================================
+Theme Selected
+Design Tokens Generated
+Accessibility Validated
+Theme Report Generated
+Database Updated
+Logs Written
+All Tests Passed
+=================================================================
+FAIL CONDITIONS
+=================================================================
+Theme Generation Failed
+Token Generation Failed
+Invalid Theme
+Database Failure
+Unhandled Exception
+
+
+--- Page 140 ---
+=================================================================
+AUDIT REPORT
+=================================================================
+Theme Selected
+Industry
+Brand Personality
+Generated Tokens
+Accessibility Result
+Theme Score
+Execution Time
+Warnings
+Errors
+PASS / FAIL
+=================================================================
+LOCK CONDITIONS
+=================================================================
+After PASS
+Theme Intelligence Engine becomes READ ONLY.
+No architectural modifications allowed without approval.
+=================================================================
+GLOBAL RESTRICTIONS
+=================================================================
+Do NOT generate Components.
+Do NOT generate Layout.
+Do NOT generate HTML.
+
+
+--- Page 141 ---
+Do NOT generate CSS.
+Do NOT continue to Phase 7.6.
+Wait for:
+PART 2B-2C
+PHASE 7.6
+COMPONENT INTELLIGENCE ENGINE
+=================================================================
+END OF PHASE 7.5
+# AI WEBSITE UPGRADE AGENCY
+## ENTERPRISE DEVELOPMENT KIT (EDK)
+### MASTER SYSTEM PROMPT
+### PART 2B-2C
+### PHASE 7.6
+### COMPONENT INTELLIGENCE ENGINE
+=================================================================
+MISSION
+=================================================================
+Implement only the Component Intelligence Engine.
+Do NOT implement Layout Intelligence.
+Do NOT implement Responsive Engine.
+Do NOT implement HTML Generation.
+Do NOT implement Preview Engine.
+Do NOT continue to Phase 7.7.
+The Component Intelligence Engine is responsible for selecting,
+building, validating, and assembling reusable UI components based on
+the outputs of the DOM Intelligence Engine, Visual Intelligence Engine,
+Theme Intelligence Engine, and Business Profile.
+This engine does not generate HTML.
+
+
+--- Page 142 ---
+It generates structured component definitions that will later be
+consumed by the HTML Generation Engine.
+=================================================================
+OBJECTIVE
+=================================================================
+Create a reusable component architecture capable of building
+industry-specific websites using standardized enterprise UI components.
+Every generated component must be:
+Reusable
+Responsive Ready
+Theme Compatible
+Accessibility Ready
+Independent
+Version Controlled
+=================================================================
+PRIMARY RESPONSIBILITIES
+=================================================================
+Analyze Business
+Analyze Theme
+Analyze Layout
+Select Components
+Select Variants
+Generate Component Tree
+Generate Component Metadata
+Validate Components
+
+
+--- Page 143 ---
+Generate Component Report
+=================================================================
+INPUT
+=================================================================
+Business Category
+Theme Profile
+Visual Report
+DOM Report
+Audit Report
+Business Profile
+=================================================================
+OUTPUT
+=================================================================
+Component Tree
+Component Library Mapping
+Component Metadata
+Variant Selection
+Component Configuration
+Component Report
+=================================================================
+COMPONENT PIPELINE
+=================================================================
+Business Category
+↓
+Theme Profile
+
+
+--- Page 144 ---
+↓
+Component Selection
+↓
+Variant Selection
+↓
+Component Configuration
+↓
+Component Tree
+↓
+Validation
+↓
+Component Report
+=================================================================
+CORE COMPONENT LIBRARY
+=================================================================
+Header
+Navigation
+Hero
+About
+Services
+Features
+Products
+Categories
+
+
+--- Page 145 ---
+Portfolio
+Projects
+Pricing
+Testimonials
+Clients
+Awards
+Statistics
+Timeline
+FAQ
+Gallery
+Team
+Blog
+Newsletter
+Contact
+Map
+Footer
+=================================================================
+UTILITY COMPONENTS
+=================================================================
+Buttons
+Badges
+Cards
+Modals
+
+
+--- Page 146 ---
+Drawers
+Tabs
+Accordion
+Alerts
+Breadcrumb
+Pagination
+Carousel
+Sliders
+Counters
+Forms
+Inputs
+Checkboxes
+Radio Buttons
+Select
+Textarea
+Tooltips
+=================================================================
+LAYOUT COMPONENTS
+=================================================================
+Container
+Section
+Grid
+Flex
+
+
+--- Page 147 ---
+Columns
+Rows
+Stack
+Divider
+Spacer
+=================================================================
+MEDIA COMPONENTS
+=================================================================
+Image
+Video
+Logo
+Icon
+Avatar
+Background
+Illustration
+=================================================================
+BUSINESS SPECIFIC COMPONENTS
+=================================================================
+Restaurant
+Menu
+Reservation
+Chef
+Food Gallery
+------------------------------------
+
+
+--- Page 148 ---
+Hospital
+Departments
+Doctors
+Appointment
+Emergency
+------------------------------------
+School
+Courses
+Faculty
+Admission
+Events
+------------------------------------
+Publisher
+Books
+Authors
+Publishing Services
+Book Categories
+Submission Form
+------------------------------------
+Hotel
+Rooms
+Booking
+
+
+--- Page 149 ---
+Facilities
+Location
+Gallery
+=================================================================
+VARIANT SYSTEM
+=================================================================
+Every component must support
+Minimal
+Modern
+Corporate
+Luxury
+Creative
+Medical
+Education
+Technology
+Dark
+Light
+Premium
+=================================================================
+COMPONENT ATTRIBUTES
+=================================================================
+Component ID
+Component Name
+Variant
+
+
+--- Page 150 ---
+Theme
+Priority
+Visibility
+Animation
+Spacing
+Responsive Rules
+Accessibility
+Dependencies
+=================================================================
+COMPONENT TREE
+=================================================================
+Website
+↓
+Header
+↓
+Hero
+↓
+Content Sections
+↓
+CTA
+↓
+Contact
+↓
+
+
+--- Page 151 ---
+Footer
+Every component must know
+Parent
+Children
+Siblings
+Display Order
+=================================================================
+COMPONENT PRIORITY
+=================================================================
+Critical
+High
+Medium
+Low
+Optional
+=================================================================
+COMPONENT RULES
+=================================================================
+No duplicated components.
+No orphan components.
+No hidden mandatory sections.
+No conflicting variants.
+No incompatible themes.
+=================================================================
+COMPONENT DEPENDENCIES
+=================================================================
+
+
+--- Page 152 ---
+Hero
+requires
+Primary CTA
+------------------------------------
+Pricing
+requires
+CTA
+------------------------------------
+Contact
+requires
+Contact Form
+------------------------------------
+Footer
+requires
+Navigation Links
+Social Links
+Copyright
+=================================================================
+COMPONENT VALIDATION
+=================================================================
+Validate
+Theme Compatibility
+Responsive Compatibility
+
+
+--- Page 153 ---
+Accessibility
+Spacing
+Typography
+Color Tokens
+Animation Tokens
+=================================================================
+COMPONENT METADATA
+=================================================================
+Generate
+Component Name
+Version
+Variant
+Priority
+Dependencies
+Accessibility Status
+Responsive Status
+Theme Status
+=================================================================
+FILES TO CREATE
+=================================================================
+agents/prototype/
+component_engine.py
+component_library.py
+component_selector.py
+
+
+--- Page 154 ---
+component_tree.py
+variant_selector.py
+dependency_validator.py
+component_validator.py
+component_registry.py
+component_metadata.py
+component_report.py
+component_models.py
+tests/
+=================================================================
+DIRECTORY STRUCTURE
+=================================================================
+prototype/
+components/
+library/
+variants/
+metadata/
+reports/
+logs/
+=================================================================
+DATABASE
+=================================================================
+Table
+prototype_components
+
+
+--- Page 155 ---
+Fields
+id
+job_id
+component_name
+variant
+theme
+priority
+dependencies
+responsive_ready
+accessibility_ready
+status
+created_at
+=================================================================
+CONFIGURATION
+=================================================================
+Component Library
+Business Mapping
+Variant Rules
+Animation Rules
+Accessibility Rules
+Priority Rules
+Dependency Rules
+=================================================================
+LOGGING
+
