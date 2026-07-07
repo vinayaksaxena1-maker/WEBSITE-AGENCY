@@ -115,6 +115,10 @@ class DashboardHTTPHandler(BaseHTTPRequestHandler):
                 
                 result["target_count"] = target_count
                 result["leads"] = leads_data
+                
+                # Append Step 5 & 6 email copy parameters
+                result["subject"] = f"Urgent Upgrade Proposal: http://lowquality-{niche_val}-lead1.com"
+                result["email_body"] = f"Hi Admin,\n\nWe scanned your {niche_val} website and noticed severe defects: it lacks an SSL certificate and is not mobile-friendly.\n\nWe generated a modern visual upgrade mockup prototype for you.\nCheck it out here: http://localhost:8000/mockup\n\nReply to proceed.\n\nBest,\nAI Website Upgrade Agency"
             finally:
                 loop.close()
                 
