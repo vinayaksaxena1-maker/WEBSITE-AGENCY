@@ -242,7 +242,7 @@
             border-radius: 10px;
             font-family: monospace;
             padding: 1rem;
-            height: 250px;
+            height: 180px;
             overflow-y: auto;
             color: #38bdf8;
             font-size: 0.9rem;
@@ -251,6 +251,19 @@
 
         .terminal-line {
             margin-bottom: 0.4rem;
+        }
+
+        /* Mockup Preview Panel */
+        .preview-card {
+            grid-column: 1 / -1;
+        }
+
+        .preview-iframe {
+            width: 100%;
+            height: 450px;
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+            background: #fff;
         }
     </style>
 </head>
@@ -357,10 +370,17 @@
                 <div class="terminal-line">[SYSTEM] UI Dashboard initialized successfully. Monitoring active.</div>
             </div>
         </div>
+
+        <!-- Mockup Visual Preview Panel -->
+        <div class="card preview-card">
+            <h2 class="card-title">Generated Upgrade Visual Prototype (Mockup Preview)</h2>
+            <iframe id="preview-frame" class="preview-iframe" src="/mockup"></iframe>
+        </div>
     </div>
 
     <script>
         const terminalEl = document.getElementById('terminal');
+        const previewFrameEl = document.getElementById('preview-frame');
 
         function appendLog(message, type = 'INFO') {
             const line = document.createElement('div');
@@ -413,6 +433,10 @@
                     appendLog('[Step 4] Generated responsive CSS/HTML Visual Prototype templates.', 'PROTOTYPE');
                     appendLog('[Step 5] Rendered personalized email proposal packages successfully.', 'OUTREACH');
                     appendLog(`[Step 6] Campaign workflow scheduled. Generated token: ${data.notification_identifier}`, 'SUCCESS');
+                    
+                    // Reload Preview Iframe dynamically
+                    appendLog('Reloading live Visual Upgrade mockup preview panel...', 'PREVIEW');
+                    previewFrameEl.src = '/mockup?t=' + Date.now();
                 } else {
                     appendLog(`Pipeline execution failed: ${data.error}`, 'ERROR');
                 }

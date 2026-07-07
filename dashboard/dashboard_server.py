@@ -35,6 +35,22 @@ class DashboardHTTPHandler(BaseHTTPRequestHandler):
                 loop.close()
                 
             self.wfile.write(json.dumps(status).encode('utf-8'))
+            
+        elif self.path.startswith('/mockup'):
+            self.send_response(200)
+            self.send_header('Content-type', 'text/html')
+            self.end_headers()
+            
+            # Read and return mock_prototype.html from tmp/
+            project_root = os.path.dirname(os.path.dirname(__file__))
+            mockup_path = os.path.join(project_root, 'tmp', 'mock_prototype.html')
+            
+            if os.path.exists(mockup_path):
+                with open(mockup_path, 'r', encoding='utf-8') as f:
+                    self.wfile.write(f.read().encode('utf-8'))
+            else:
+                placeholder = "<html><body style='background:#f1f5f9;display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;color:#64748b;'>No visual prototype generated yet. Trigger the pipeline to generate it.</body></html>"
+                self.wfile.write(placeholder.encode('utf-8'))
         else:
             self.send_response(404)
             self.end_headers()
