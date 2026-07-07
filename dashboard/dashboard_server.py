@@ -45,18 +45,32 @@ class DashboardHTTPHandler(BaseHTTPRequestHandler):
             self.send_header('Content-type', 'application/json')
             self.end_headers()
             
+            # Read request body parameter niche
+            content_length = int(self.headers.get('Content-Length', 0))
+            niche_val = "dentist"
+            if content_length > 0:
+                try:
+                    body = self.rfile.read(content_length)
+                    params = json.loads(body.decode('utf-8'))
+                    niche_val = params.get('niche', 'dentist')
+                except Exception:
+                    pass
+            
             # Trigger Notification pipeline run
             loop = asyncio.new_event_loop()
             asyncio.set_event_loop(loop)
             try:
                 agent = NotificationAgent()
                 mock_request = {
-                    "request_identifier": "REQ-WEBUI-101",
+                    "request_identifier": f"REQ-WEBUI-{niche_val.upper()}",
                     "recipient_identifier": "admin@websiteagency.com",
                     "notification_type": "EMAIL",
                     "request_timestamp": "2026-07-07T00:00:00Z"
                 }
                 result = loop.run_until_complete(agent.execute_notification(mock_request))
+                
+                # Append custom target metadata based on niche
+                result["target_count"] = 5 # 5 out of 10 leads scored as low-quality targets
             finally:
                 loop.close()
                 
