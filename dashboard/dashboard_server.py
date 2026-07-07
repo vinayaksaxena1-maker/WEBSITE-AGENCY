@@ -85,8 +85,36 @@ class DashboardHTTPHandler(BaseHTTPRequestHandler):
                 }
                 result = loop.run_until_complete(agent.execute_notification(mock_request))
                 
-                # Append custom target metadata based on niche
-                result["target_count"] = 5 # 5 out of 10 leads scored as low-quality targets
+                # Generate dynamic diagnostics list for Step 1, 2, 3 Report
+                leads_data = []
+                target_count = 0
+                for i in range(1, 11):
+                    ssl = (i % 3 != 0)
+                    mobile = (i % 2 == 0)
+                    latency = 1.5 + (i * 0.4)
+                    seo = 100 - (i * 8)
+                    
+                    # Score calculation
+                    score = 0.0
+                    if not ssl: score += 30.0
+                    if not mobile: score += 40.0
+                    if latency > 2.5: score += 20.0
+                    score += (100.0 - seo) / 10.0
+                    
+                    if score >= 50.0:
+                        target_count += 1
+                        
+                    leads_data.append({
+                        "url": f"http://lowquality-{niche_val}-lead{i}.com",
+                        "ssl": ssl,
+                        "mobile": mobile,
+                        "latency": latency,
+                        "seo": seo,
+                        "score": score
+                    })
+                
+                result["target_count"] = target_count
+                result["leads"] = leads_data
             finally:
                 loop.close()
                 

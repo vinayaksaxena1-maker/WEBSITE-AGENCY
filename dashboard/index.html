@@ -253,6 +253,43 @@
             margin-bottom: 0.4rem;
         }
 
+        /* Table Design */
+        .table-card {
+            grid-column: 1 / -1;
+        }
+
+        .leads-table-container {
+            width: 100%;
+            overflow-x: auto;
+            border-radius: 10px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .leads-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        .leads-table th {
+            background: rgba(15, 23, 42, 0.6);
+            color: var(--text-primary);
+            padding: 1rem;
+            font-weight: 600;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .leads-table td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+        }
+
+        .leads-table tr:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
         /* Mockup Preview Panel */
         .preview-card {
             grid-column: 1 / -1;
@@ -363,6 +400,30 @@
             </div>
         </div>
 
+        <!-- Diagnostic Audit Leads Table -->
+        <div class="card table-card">
+            <h2 class="card-title">Target Leads & Diagnostic Audits (Step 1, 2 & 3 Report)</h2>
+            <div class="leads-table-container">
+                <table class="leads-table">
+                    <thead>
+                        <tr>
+                            <th>Website Lead URL</th>
+                            <th>SSL Status</th>
+                            <th>Mobile View</th>
+                            <th>Page Latency</th>
+                            <th>SEO Rank</th>
+                            <th>Upgrade Priority Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leads-table-body">
+                        <tr>
+                            <td colspan="6" style="text-align: center; color: var(--text-secondary);">No scan records executed yet. Run the pipeline above.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <!-- Terminal Logs Panel -->
         <div class="card terminal-card">
             <h2 class="card-title">Live Execution logs</h2>
@@ -381,6 +442,7 @@
     <script>
         const terminalEl = document.getElementById('terminal');
         const previewFrameEl = document.getElementById('preview-frame');
+        const tableBodyEl = document.getElementById('leads-table-body');
 
         function appendLog(message, type = 'INFO') {
             const line = document.createElement('div');
@@ -437,6 +499,26 @@
                     // Reload Preview Iframe dynamically
                     appendLog('Reloading live Visual Upgrade mockup preview panel...', 'PREVIEW');
                     previewFrameEl.src = '/mockup?t=' + Date.now();
+
+                    // Render Leads Table Report dynamically
+                    tableBodyEl.innerHTML = '';
+                    data.leads.forEach(lead => {
+                        const tr = document.createElement('tr');
+                        
+                        const sslBadge = `<span class="status-badge ${lead.ssl ? 'badge-green' : 'badge-red'}">${lead.ssl ? 'Valid' : 'Missing'}</span>`;
+                        const mobileBadge = `<span class="status-badge ${lead.mobile ? 'badge-green' : 'badge-red'}">${lead.mobile ? 'Responsive' : 'Defect'}</span>`;
+                        const priorityBadge = `<span class="status-badge ${lead.score >= 50 ? 'badge-red' : 'badge-green'}">${lead.score >= 50 ? 'High' : 'Low'}</span>`;
+
+                        tr.innerHTML = `
+                            <td>${lead.url}</td>
+                            <td>${sslBadge}</td>
+                            <td>${mobileBadge}</td>
+                            <td>${lead.latency.toFixed(2)}s</td>
+                            <td>${lead.seo}%</td>
+                            <td>${priorityBadge} (${lead.score.toFixed(1)})</td>
+                        `;
+                        tableBodyEl.appendChild(tr);
+                    });
                 } else {
                     appendLog(`Pipeline execution failed: ${data.error}`, 'ERROR');
                 }
